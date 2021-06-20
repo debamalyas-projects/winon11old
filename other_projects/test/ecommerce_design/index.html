@@ -1,0 +1,1824 @@
+<!DOCTYPE html>
+<html lang="eng-US">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compitable" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home | Grocerry & Restaurant</title>
+	<link rel="shortcut icon" href="images/favicon.png">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+	<div class="off-canvar-manu">
+		<span class="manu-close"><i class="fa fa-times"></i></span>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="categorylisting.html">Shop by Category</a></li>
+			<li><a href="#">Best Seller</a></li>
+			<li><a href="#">Event</a></li>
+			<li><a href="#">Favourites</a></li>
+			<li><a href="#">Fresh Deals</a></li>
+			<li><a href="#">Daily Essentials</a></li>
+			<li><a href="#">Coupons</a></li>
+			<li><a href="#">Featured Brands</a></li>
+		</ul>
+	</div>
+
+	<div class="off-canvar-overlay"></div>
+
+	<div id="header-responsive-area">
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-md-1 col-sm-1 col-1">
+
+					<a href="#" class="manu-trigger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-2 col-2">
+					<a href="index.html" class="logo"><img src="images/moblogo.png" style="float: right;margin-right: -15px;margin-top: -5px;" alt="logo" class="logo" width="80" height="30"></a>
+				</div>
+				<div class="col-md-5 col-sm-5 col-5 text-right">
+					<a href="#"> <img class="img-menu" src="images/mobgrocery.png" width="100" height="40px"></a>
+					<a href="#"> <img class="img-menu" src="images/mobrestaurants.png" width="100" height="40px"></a>
+				</div>
+				<div class="col-md-1 col-sm-1 col-1 ">
+					<a href="#" class="res-user" onclick="document.getElementById('login').style.display='block'"><i
+							class="far fa-user"></i></a>
+				</div>
+				<div class="col-md-1 col-sm-1 col-1 ">
+					<a href="#" class="res-cart" onclick="document.getElementById('register').style.display='block'"><i
+							class="fas fa-user-plus"></i></a>
+				</div>
+				<div class="col-md-1 col-sm-1 col-1">
+					<a href="#" class="res-location"><i class="fas fa-map-marker-alt"></i></a>
+				</div>
+
+				<div class="col-md-1 col-sm-1 col-1 ">
+					<a href="#" class="res-cart"><i class="fa fa-shopping-cart"></i><span
+							class="badge badge-danger">5</span></a>
+				</div>
+
+				<div class="col-md-12 col-sm-12 col-12 mt-2 ">
+					<form>
+						<input type="text" name="search" placeholder="Search..">
+						<input type="button" value="Go" id="searchBtn" name="searchBtn">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="top-header-area">
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-md-3">
+					<!-- <ul class="social">
+						<li><a href="#"><i class="fas fa-phone"></i>+91-8001080000</a></li>
+						<li><a href="#"><i class="fas fa-envelope"></i>binithdas@gmail.com</a></li>
+
+					</ul> -->
+				</div>
+				<div class="col-md-4 text-right">
+					<a href="#"> <img class="img-menu" src="images/grocery.png"></a>
+					<a href="#"> <img class="img-menu" src="images/restaurants.png"></a>
+				</div>
+				<div class="col-md-5 text-right">
+					<ul class="social">
+
+						<li><a href="#"><i class="fas fa-map-marker-alt"></i>Tollygunge Phari, Kolkata <i
+									class="fas fa-chevron-down"></i></a></li>
+						<li><button style="border: 1px solid #80808061;cursor:pointer; border-radius: 5px;"
+								onclick="document.getElementById('login').style.display='block'"><i
+									class="far fa-user"></i> Login</button></li>
+						<li><button style="border: 1px solid #80808061;cursor:pointer; border-radius: 5px;"
+								onclick="document.getElementById('register').style.display='block'"><i
+									class="fas fa-user-plus"></i> Sign Up</button></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row my-2">
+				<div class="col-md-2">
+					<a href="index.html"><img src="images/logo.png" alt="logo" class="logo" width="150" height="50"></a>
+				</div>
+				<div class="col-md-1" id="shopby">
+					<ul id="nav">
+						<li><a href="#">SHOP <i class="fas fa-chevron-down"></i></a>
+							<ul class="menu-area">
+
+								<ul>
+									<h4>Foodgrains</h4>
+									<li><a href="#">Rice & Rice Products</a></li>
+									<li><a href="#">Atta, Flours, Sooji</a></li>
+									<li><a href="#">Dals & Pulses</a></li>
+									<li><a href="#">Organic staples</a></li>
+									<li><a href="#">Dry Fruits</a></li>
+									<li><a href="#">Organic staples</a></li>
+								</ul>
+								<ul>
+									<h4>Oil & Spices</h4>
+									<li><a href="#">Powder spices</a></li>
+									<li><a href="#">Edible Oil & Ghee</a></li>
+									<li><a href="#">Herbs & Whole Spices</a></li>
+									<li><a href="#">Salt & Sugar</a></li>
+									<li><a href="#">Cooking Paste</a></li>
+								</ul>
+								<ul>
+									<h4>Beverages</h4>
+									<li><a href="#">Soft Drinks</a></li>
+									<li><a href="#">Health Drinks</a></li>
+									<li><a href="#">Juices & Shakes</a></li>
+									<li><a href="#">Water</a></li>
+									<li><a href="#">Tea</a></li>
+									<li><a href="#">Coffee</a></li>
+								</ul>
+								<ul>
+									<h4>Dairy & Bakery</h4>
+									<li><a href="#">Bread & Cake</a></li>
+									<li><a href="#">Milk & Curd</a></li>
+									<li><a href="#">Cheese & Butter</a></li>
+									<li><a href="#">Buttermilk, Lassi & Milkshake</a></li>
+
+
+								</ul>
+								<ul>
+									<h4>Household</h4>
+									<li><a href="#">Detergent & Dishwash</a></li>
+									<li><a href="#">All Purpose Cleaners</a></li>
+									<li><a href="#">Repellents & Freshners</a></li>
+									<li><a href="#">Puja Needs</a></li>
+									<li><a href="#">Disposable, Garbage Bag</a></li>
+									<li><a href="#">Car & Shoe Care</a></li>
+
+
+								</ul>
+								<ul>
+
+									<img src="images/delivery.jpg" alt="" width="250" height="200">
+								</ul>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-md-6" id="formRes">
+					<form>
+						<input type="text" name="search" placeholder="Search for Products...">
+						<input type="button" value="Go" id="searchBtn" name="searchBtn">
+					</form>
+				</div>
+
+				<div class="col-md-1">
+					<a href="#"><img src="images/club.png" alt="logo" width="75" height="50"></a>
+
+				</div>
+				<div class="col-md-1 mt-3">
+
+					<a href="#" class="offers"><i class="fas fa-tag"></i> Offers</a>
+				</div>
+				<div class="col-md-2">
+					<a href="shop-cart.html" class="btn btn-custom cart"><i class="fa fa-shopping-cart"></i><span
+							class="badge badge-danger">5</span>My Cart<small>&#8377;200</small></a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="header-area">
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-md-12">
+					<ul id="nav">
+						<li class="dropdown"><i class="fa fa-list-alt"></i><a href="categorylisting.html">Shop by
+								Category <i class="fas fa-chevron-down"></i></a>
+							<ul class="menu-area">
+
+								<ul>
+									<h4>Foodgrains</h4>
+									<li><a href="#">Rice & Rice Products</a></li>
+									<li><a href="#">Atta, Flours, Sooji</a></li>
+									<li><a href="#">Dals & Pulses</a></li>
+									<li><a href="#">Organic staples</a></li>
+									<li><a href="#">Dry Fruits</a></li>
+									<li><a href="#">Organic staples</a></li>
+								</ul>
+								<ul>
+									<h4>Oil & Spices</h4>
+									<li><a href="#">Powder spices</a></li>
+									<li><a href="#">Edible Oil & Ghee</a></li>
+									<li><a href="#">Herbs & Whole Spices</a></li>
+									<li><a href="#">Salt & Sugar</a></li>
+									<li><a href="#">Cooking Paste</a></li>
+								</ul>
+								<ul>
+									<h4>Beverages</h4>
+									<li><a href="#">Soft Drinks</a></li>
+									<li><a href="#">Health Drinks</a></li>
+									<li><a href="#">Juices & Shakes</a></li>
+									<li><a href="#">Water</a></li>
+									<li><a href="#">Tea</a></li>
+									<li><a href="#">Coffee</a></li>
+								</ul>
+								<ul>
+									<h4>Dairy & Bakery</h4>
+									<li><a href="#">Bread & Cake</a></li>
+									<li><a href="#">Milk & Curd</a></li>
+									<li><a href="#">Cheese & Butter</a></li>
+									<li><a href="#">Buttermilk, Lassi & Milkshake</a></li>
+
+
+								</ul>
+								<ul>
+									<h4>Household</h4>
+									<li><a href="#">Detergent & Dishwash</a></li>
+									<li><a href="#">All Purpose Cleaners</a></li>
+									<li><a href="#">Repellents & Freshners</a></li>
+									<li><a href="#">Puja Needs</a></li>
+									<li><a href="#">Disposable, Garbage Bag</a></li>
+									<li><a href="#">Car & Shoe Care</a></li>
+
+
+								</ul>
+								<ul>
+
+									<img src="images/delivery.jpg" alt="" width="250" height="200">
+								</ul>
+							</ul>
+						</li>
+						<li><i class="fa fa-thumbs-up"></i><a href="#">Best Seller</a></li>
+						<li><i class="fa fa-calendar"></i><a href="#">Events</a></li>
+						<li><i class="fa fa-heart"></i><a href="#">Favourites</a></li>
+						<li><i class="fa fa-hand-peace"></i><a href="#">Fresh Deals</a></li>
+						<li><i class="fa fa-plus"></i><a href="#">Daily Essentials</a></li>
+						<li><i class="fa fa-gift"></i><a href="#">Coupons</a></li>
+						<li><i class="fa fa-adjust custom"></i><a href="#">Featured Brands</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!----Modal Login--------->
+	<div id="login" class="modal mbsc-cloak">
+		<div class="form-center">
+			<div class="form-container">
+				<label for="" onclick="closeform()" class="close-btn fas fa-times"></label>
+				<div class="row social-login-row">
+					<a href="#" class="fb btn">
+						<i class="fab fa-facebook-f"></i> Login with Facebook
+					</a>
+					<a href="#" class="google-plus btn">
+						<i class="fab fa-google-plus"></i> Login with google +
+					</a>
+				</div>
+				<p class="login-seperator">OR</p>
+				<form action="#">
+					<div class="data">
+						<label>Email/Phone</label>
+						<input type="text" required>
+					</div>
+					<div class="data">
+						<label>Password</label>
+						<input type="password" required>
+					</div>
+					<div class="forgot-pass"><a href="#">Forgot Password</a></div>
+					<div class="btn">
+						<div class="inner"></div>
+						<button type="submit">Login</button>
+					</div>
+					<div class="sign-up-link">Not a member?<a href="#"> Sign Up Now.</a></div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!----Modal Registration--------->
+	<div id="register" class="modal mbsc-cloak">
+		<div class="form-center">
+			<div class="form-container">
+				<label for="" onclick="closeForm()" class="close-btn fas fa-times"></label>
+				<form action="#">
+					<div class="data">
+						<label>Enter Your Phone Number</label>
+						<input type="text" required>
+					</div>
+					<div class="btn">
+						<div class="inner"></div>
+						<button type="submit">Send OTP</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div id="product-area">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="child-product owl-carousel owl-theme">
+						<div class="item">
+							<img src="images/category-l0-5.jpg" alt="" />
+						</div>
+						<div class="item">
+							<img src="images/category-l0-7.jpg" alt="" />
+						</div>
+						<div class="item">
+							<img src="images/category-l0-12.jpg" alt="" />
+						</div>
+						<div class="item">
+							<img src="images/category-l0-13.jpg" alt="" />
+						</div>
+						<div class="item">
+							<img src="images/category-l0-14.jpg" alt="" />
+						</div>
+						<div class="item">
+							<img src="images/category-l0-15.jpg" alt="" />
+						</div>
+						<div class="item">
+							<img src="images/category-l0-16.jpg" alt="" />
+						</div>
+						<div class="item">
+							<img src="images/category-l0-18.jpg" alt="" />
+						</div>
+						<div class="item">
+							<img src="images/category-l0-163.jpg" alt="" />
+						</div>
+						<div class="item">
+							<img src="images/category-l0-1047.jpg" alt="" />
+						</div>
+						<div class="item">
+							<img src="images/category-l0-1379.jpg" alt="" />
+						</div>
+						<div class="item">
+							<img src="images/category-l0-1487.jpg" alt="" />
+						</div>
+						<div class="item">
+							<img src="images/category-l0-1616.jpg" alt="" />
+						</div>
+						<div class="item">
+							<img src="images/category-l0-1710.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="slider-area">
+		<div class="bx-wrapper">
+			<div class="bx-viewport">
+				<div class="bxslider">
+					<div class="slider-child">
+						<img src="images/banner1.jpg" id="0" alt="slider1">
+						<div class="slider-text">
+							<div class="slider-display">
+								<div class="slider-table">
+									<div class="slider-main">
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="slider-child">
+						<img src="images/banner2.jpg" id="1" alt="slider2">
+						<div class="slider-text">
+							<div class="slider-display">
+								<div class="slider-table">
+									<div class="slider-main">
+
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="slider-child">
+						<img src="images/banner3.jpg" id="2" alt="slider3">
+						<div class="slider-text">
+							<div class="slider-display">
+								<div class="slider-table">
+									<div class="slider-main">
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="slider-child">
+						<img src="images/banner4.jpg" id="3" alt="slider1">
+						<div class="slider-text">
+							<div class="slider-display">
+								<div class="slider-table">
+									<div class="slider-main">
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="slider-child">
+						<img src="images/banner5.jpg" id="4" alt="slider1">
+						<div class="slider-text">
+							<div class="slider-display">
+								<div class="slider-table">
+									<div class="slider-main">
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="slider-child">
+						<img src="images/banner6.jpg" id="5" alt="slider1">
+						<div class="slider-text">
+							<div class="slider-display">
+								<div class="slider-table">
+									<div class="slider-main">
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="slider-child">
+						<img src="images/banner7.jpg" id="6" alt="slider1">
+						<div class="slider-text">
+							<div class="slider-display">
+								<div class="slider-table">
+									<div class="slider-main">
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bx-controls bx-has-controls-direction bx-has-pager">
+
+				<div class="bx-pager bx-default-pager">
+					<div class="bx-pager-item1"><a href="#0" data-slide-index="0" class="bx-pager-link">Best
+							Quality<br><span>Offers</span></a></div>
+					<div class="bx-pager-item1"><a href="#1" data-slide-index="1"
+							class="bx-pager-link">Immunity<br><span>Offers</span></a></div>
+					<div class="bx-pager-item1"><a href="#2" data-slide-index="2"
+							class="bx-pager-link active">Healthy<br><span>Offers</span></a></div>
+					<div class="bx-pager-item1"><a href="#3" data-slide-index="3" class="bx-pager-link">Home
+							Kitchen<br><span>Offers</span></a></div>
+					<div class="bx-pager-item1"><a href="#4" data-slide-index="4" class="bx-pager-link">The
+							Beauty<br><span>Offers</span></a></div>
+					<div class="bx-pager-item1"><a href="#5" data-slide-index="5"
+							class="bx-pager-link">Tea-time<br><span>Offers</span></a></div>
+					<div class="bx-pager-item1"><a href="#6" data-slide-index="6"
+							class="bx-pager-link">Breakfast<br><span>Offers</span></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="promo-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center mb-5">
+					<h2 class="title1">Bank Offers & Promo Code</h2>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="slide-child-promo owl-carousel owl-theme">
+						<div class="item">
+							<div class="bankPromo odd">
+								<h6>Flat &#8377;200<br><small>Discount</small></h6>
+
+							</div>
+							<div class="imgPromo"><img src="images/payzapp.jpg" alt="" /></div>
+						</div>
+						<div class="item">
+							<div class="bankPromo even">
+								<h6>Use<br><small>100% SuperCash</small></h6>
+							</div>
+							<div class="imgPromo"><img src="images/promo2_mobikwik.png" alt="" /></div>
+						</div>
+						<div class="item">
+							<div class="bankPromo odd">
+								<h6>5% Off <br><small>Up to &#8377;150</small></h6>
+							</div>
+							<div class="imgPromo"><img src="images/paytm.jpg" width="50" height="45" alt="" /></div>
+						</div>
+						<div class="item">
+							<div class="bankPromo even">
+								<h6>Flat &#8377;75 <br><small>Cashback</small></h6>
+							</div>
+							<div class="imgPromo"><img src="images/sbi.jpg" width="50" height="50" alt="" /></div>
+						</div>
+						<div class="item">
+							<div class="bankPromo odd">
+								<h6>Get<br><small>Free Vouchers</small></h6>
+							</div>
+							<div class="imgPromo"><img src="images/payzapp.jpg" alt="" /></div>
+						</div>
+						<div class="item">
+							<div class="bankPromo even">
+								<h6>Flat &#8377;200 <br><small>Discount</small></h6>
+							</div>
+							<div class="imgPromo"><img src="images/promo2_mobikwik.png" alt="" /></div>
+						</div>
+						<div class="item">
+							<div class="bankPromo odd">
+								<h6>5% Off <br><small>Up to &#8377;150</small></h6>
+							</div>
+							<div class="imgPromo"><img src="images/payzapp.jpg" alt="" /></div>
+						</div>
+						<div class="item">
+							<div class="bankPromo even">
+								<h6>Flat &#8377;200 <br><small>Discount</small></h6>
+							</div>
+							<div class="imgPromo"><img src="images/promo2_mobikwik.png" alt="" /></div>
+						</div>
+						<div class="item">
+							<div class="bankPromo odd">
+								<h6>Flat &#8377;200 <br><small>Discount</small></h6>
+							</div>
+							<div class="imgPromo"><img src="images/paytm.jpg" width="50" height="45" alt="" /></div>
+						</div>
+						<div class="item">
+							<div class="bankPromo even">
+								<h6>Use<br><small>100% SuperCash</small></h6>
+							</div>
+							<div class="imgPromo"><img src="images/promo2_mobikwik.png" alt="" /></div>
+						</div>
+						<div class="item">
+							<div class="bankPromo odd">
+								<h6>Flat &#8377;200 <br><small>Discount</small></h6>
+							</div>
+							<div class="imgPromo"><img src="images/paytm.jpg" width="50" height="45" alt="" /></div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="offer-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center mb-5">
+					<h2 class="title1">Top Offers</h2>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="child-offer owl-carousel owl-theme">
+						<div class="item">
+							<div class="imgOffer"><img src="images/g1.jpg" alt="" /></div>
+							<div class="topOffer">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+							<div class="imgOffer mtop"><img src="images/g2.png" alt="" /></div>
+							<div class="topOffer mtop">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="imgOffer"><img src="images/g5.jpg" alt="" /></div>
+							<div class="topOffer ">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+							<div class="imgOffer mtop"><img src="images/g3.jpg" alt="" /></div>
+							<div class="topOffer mtop">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="imgOffer"><img src="images/g3.jpg" alt="" /></div>
+							<div class="topOffer">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+							<div class="imgOffer mtop"><img src="images/g1.jpg" alt="" /></div>
+							<div class="topOffer mtop">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="imgOffer"><img src="images/g1.jpg" alt="" /></div>
+							<div class="topOffer">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+							<div class="imgOffer mtop"><img src="images/g3.jpg" alt="" /></div>
+							<div class="topOffer mtop">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="imgOffer"><img src="images/g2.png" alt="" /></div>
+							<div class="topOffer">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+							<div class="imgOffer mtop"><img src="images/g1.jpg" alt="" /></div>
+							<div class="topOffer mtop">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="imgOffer"><img src="images/g4.png" alt="" /></div>
+							<div class="topOffer">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+							<div class="imgOffer mtop"><img src="images/g5.jpg" alt="" /></div>
+							<div class="topOffer mtop">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="imgOffer"><img src="images/g5.jpg" alt="" /></div>
+							<div class="topOffer">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+							<div class="imgOffer mtop"><img src="images/g1.jpg" alt="" /></div>
+							<div class="topOffer mtop">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="imgOffer"><img src="images/g3.jpg" alt="" /></div>
+							<div class="topOffer">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+							<div class="imgOffer mtop"><img src="images/g1.jpg" alt="" /></div>
+							<div class="topOffer mtop">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="imgOffer"><img src="images/g2.png" alt="" /></div>
+							<div class="topOffer">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+							<div class="imgOffer mtop"><img src="images/g4.png" alt="" /></div>
+							<div class="topOffer mtop">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="imgOffer"><img src="images/g4.png" alt="" /></div>
+							<div class="topOffer">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+							<div class="imgOffer mtop"><img src="images/g5.jpg" alt="" /></div>
+							<div class="topOffer mtop">
+								<h6>Up to 60% OFF</h6>
+								<h5>Household Items</h5>
+								<p>Disinfectants, Buy 1 Get 1 Free, Household Best Offers.
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="bestSeller-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center mb-5">
+					<h2 class="title1">Best Seller</h2>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="bestSeller-info owl-carousel owl-theme">
+						<div class="info-child items">
+							<img src="images/excel.jpg" alt="">
+							<div class="info-text">
+								<h6>Surf Excel Detergent Bar 200 g(pac...</h6>
+								<p class="ratingStar"><span class="star">4.0 <i class="fas fa-star"></i></span> 150
+									Ratings</p>
+								<h5>Mfr. Hindustan Unilever Limited</h5>
+								<p>M.R.P <del>&#8377;94.00</del><br><span>&#8377; 79.00</span><br><small>Save &#8377;
+										14.50</small></p>
+								<a href="#" class="btn btn-info"> Add to Cart <i class="fas fa-cart-plus"></i></a>
+							</div>
+
+							<a href="#" class="clubprize"><i class="fas fa-award"></i> Club Price &#8377; 146.00 <i
+									class="fas fa-unlock-alt"></i> <i class="fas fa-chevron-right"></i></a>
+
+						</div>
+						<div class="info-child items">
+							<img src="images/dairymilk.jpg" alt="">
+							<div class="info-text">
+								<h6>Cadburry Dairy Milk Fruit & Nut Choc...</h6>
+								<p class="ratingStar"><span class="starLow">2.7 <i class="fas fa-star"></i></span> 345
+									Ratings</p>
+								<h5>Mfr. Mondelez India Foods Pvt...</h5>
+								<p>M.R.P <del>&#8377;45.00</del><br><span>&#8377; 36.00</span><br><small>Save &#8377;
+										9.00</small></p>
+								<a href="#" class="btn btn-info">Add to Cart <i class="fas fa-cart-plus"></i></a>
+							</div>
+							<a href="#" class="clubprize"><i class="fas fa-award"></i> Club Price &#8377; 146.00 <i
+									class="fas fa-unlock-alt"></i> <i class="fas fa-chevron-right"></i></a>
+
+						</div>
+
+						<div class="info-child items">
+							<img src="images/ashirbad.jpg" alt="">
+							<div class="info-text">
+								<h6>Aashirbad Whole Wheat Atta 10 kg</h6>
+								<p class="ratingStar"><span class="star">4.8 <i class="fas fa-star"></i></span> 675
+									Ratings</p>
+								<h5>Mfr. ITC Limited</h5>
+								<p>M.R.P <del>&#8377;450.00</del><br><span>&#8377; 375.00</span><br><small>Save &#8377;
+										75.00</small></p>
+								<a href="product.html" class="btn btn-info">Add to Cart <i
+										class="fas fa-cart-plus"></i></a>
+							</div>
+							<a href="product.html" class="clubprize"><i class="fas fa-award"></i> Club Price &#8377;
+								146.00 <i class="fas fa-unlock-alt"></i> <i class="fas fa-chevron-right"></i></a>
+
+						</div>
+
+						<div class="info-child items">
+							<img src="images/amultaza.jpeg" alt="">
+							<div class="info-text">
+								<h6>Amul Taaza Homogenised Toned</h6>
+								<p class="ratingStar"><span class="star">4.6 <i class="fas fa-star"></i></span> 190
+									Ratings</p>
+								<h5>Mfr. GCMMF Limited</h5>
+								<p>M.R.P <del>&#8377;64.00</del><br><span>&#8377; 60.00</span><br><small>Save &#8377;
+										4.00</small></p>
+								<a href="#" class="btn btn-info">Add to Cart <i class="fas fa-cart-plus"></i></a>
+							</div>
+							<a href="#" class="clubprize"><i class="fas fa-award"></i> Club Price &#8377; 146.00 <i
+									class="fas fa-unlock-alt"></i> <i class="fas fa-chevron-right"></i></a>
+
+						</div>
+
+						<div class="info-child items">
+							<img src="images/goodlife.jpg" alt="">
+							<div class="info-text">
+								<h6>Good Life W320 Cashews 500 g</h6>
+								<p class="ratingStar"><span class="starLow">3.0 <i class="fas fa-star"></i></span> 93
+									Ratings</p>
+								<h5>Mfr. Privete Label</h5>
+								<p>M.R.P <del>&#8377;575.00</del><br><span>&#8377; 449.00</span><br><small>Save &#8377;
+										126.00</small></p>
+								<a href="#" class="btn btn-info">Add to Cart <i class="fas fa-cart-plus"></i></a>
+							</div>
+							<a href="#" class="clubprize"><i class="fas fa-award"></i> Club Price &#8377; 146.00 <i
+									class="fas fa-unlock-alt"></i> <i class="fas fa-chevron-right"></i></a>
+
+						</div>
+
+						<div class="info-child items">
+							<img src="images/bikaneribhujia.jpg" alt="">
+							<div class="info-text">
+								<h6>Snactac Bikaneri Bhujia 150 g</h6>
+								<p class="ratingStar"><span class="star">3.5 <i class="fas fa-star"></i></span> 705
+									Ratings</p>
+								<h5>Mfr. Privete Label</h5>
+								<p>M.R.P <del>&#8377;60.00</del><br><span>&#8377; 30.00</span><br><small>Save &#8377;
+										30.00</small></p>
+								<a href="#" class="btn btn-info">Add to Cart <i class="fas fa-cart-plus"></i></a>
+							</div>
+							<a href="#" class="clubprize"><i class="fas fa-award"></i> Club Price &#8377; 146.00 <i
+									class="fas fa-unlock-alt"></i> <i class="fas fa-chevron-right"></i></a>
+
+						</div>
+
+
+						<div class="info-child items">
+							<img src="images/dawatrice.jpg" alt="">
+							<div class="info-text">
+								<h6>Daawat Biryani Basmati Rice 1 kg</h6>
+								<p class="ratingStar"><span class="star">4.1 <i class="fas fa-star"></i></span> 432
+									Ratings</p>
+								<h5>Mfr. Daawat Basmati Rice Ltd.</h5>
+								<p>M.R.P <del>&#8377;150.00</del><br><span>&#8377; 120.00</span><br><small>Save &#8377;
+										30.00</small></p>
+								<a href="#" class="btn btn-info">Add to Cart <i class="fas fa-cart-plus"></i></a>
+							</div>
+							<a href="#" class="clubprize"><i class="fas fa-award"></i>Club Price &#8377; 146.00 <i
+									class="fas fa-unlock-alt"></i> <i class="fas fa-chevron-right"></i></a>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!----Staples Corner------->
+	<div id="promo-area-category">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center mb-5">
+					<h2 class="title2">Staples Corner</h2>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="child-promo owl-carousel owl-theme owl-border">
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/spice&masala.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Masala & Spices</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/sugar.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Sugar</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/rice.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Rice</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/dryfruits.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Dry Fruits</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/spice&masala.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Masala Spices</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/Flour.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Flour</small></h6>
+
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!----Beauty & Hygiene------->
+	<div id="promo-area-category">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center mb-5">
+					<h2 class="title3">Beauty & Hygiene</h2>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="child-promo owl-carousel owl-theme owl-border">
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/perfume.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Deos & Perfumes</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/sanitiser.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Sanitisers</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/OralCare.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Oral Care</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/Men'sGrooming.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Men's Grooming</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/femininehygeine.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Feminine Hygeiene</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/handwash.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Handwash</small></h6>
+
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-------Offer Zone------>
+	<div id="slider-offer-area">
+		<div class="bxslider">
+			<div class="slider-child">
+				<img src="images/banner1.jpg" alt="slider1">
+				<div class="slider-text">
+					<div class="slider-display">
+						<div class="slider-table">
+							<div class="slider-main">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="slider-child">
+				<img src="images/banner2.jpg" alt="slider2">
+				<div class="slider-text">
+					<div class="slider-display">
+						<div class="slider-table">
+							<div class="slider-main">
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="slider-child">
+				<img src="images/banner3.jpg" alt="slider3">
+				<div class="slider-text">
+					<div class="slider-display">
+						<div class="slider-table">
+							<div class="slider-main">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!----Cleaning & Household------->
+	<div id="promo-area-category">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center mb-5">
+					<h2 class="title4">Cleaning & Household</h2>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="child-promo owl-carousel owl-theme owl-border">
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/household1.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Pooja Needs</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/clean1.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Detergent Powder</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/clean2.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Floor Cleaners</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/clean4.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Liquid Detergent</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/clean3.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Floor Cleaners</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/clean5.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Liquid Detergent</small></h6>
+
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!----Home & Kitchen------->
+	<div id="promo-area-category">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center mb-5">
+					<h2 class="title5">Home & Kitchen</h2>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="child-promo owl-carousel owl-theme owl-border">
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/h&c1.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Cups & Utensils</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/h&c2.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Tea Cups</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/h&c3.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Stationary</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/h&c4.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Monsoon Essentials</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/h&c5.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Led Bulb</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/h&c1.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Storage Container</small></h6>
+
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!----Drinks & Beverages------->
+	<div id="promo-area-category">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center mb-5">
+					<h2 class="title6">Drinks & Beverages</h2>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="child-promo owl-carousel owl-theme owl-border">
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/d&b1.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Milk</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/d&b2.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Honey</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/d&b3.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Juices</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/d&b4.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Green Tea</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/d&b5.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Tea</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/d&b1.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Cold Drinks</small></h6>
+
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-------delivery free Zone------>
+
+	<div class="bakery-banner">
+		<img src="images/bannerBakery.jpg" alt="slider1">
+	</div>
+
+
+	<!----Fruits & Vegetables------->
+	<div id="promo-area-category">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center mb-5">
+					<h2 class="title7">Fruits & Vegetables</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="child-promo owl-carousel owl-theme owl-border">
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/f3.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Fresh Fruits</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/f1.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Cut Fruits</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/f3.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Fresh Fruits</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/v2.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Daily Vegetables</small></h6>
+
+							</div>
+						</div>
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/v1.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Exotic Corner</small></h6>
+
+							</div>
+						</div>
+
+						<div class="item item-border">
+							<div class="slide-product"><img src="images/v3.jpg" alt="" /></div>
+
+							<div class="product-heading">
+								<h6><small>Daily Vegetables</small></h6>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-----------Shopping Advice-------------->
+
+	<div id="promo-area-category">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center mb-5">
+					<h2 class="title9">Shopping Advice</h2>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="child-promo owl-carousel owl-theme owl-border">
+						<div class="item">
+							<div class="slide-shp-adv"><a href="#"><img src="images/y1.jpg" alt="" /></a></div>
+						</div>
+						<div class="item">
+							<div class="slide-shp-adv"><a href="#"><img src="images/y2.jpg" alt="" /></a></div>
+
+						</div>
+						<div class="item">
+							<div class="slide-shp-adv"><a href="#"><img src="images/y3.jpg" alt="" /></a></div>
+
+						</div>
+						<div class="item">
+							<div class="slide-shp-adv"><a href="#"><img src="images/y4.jpg" alt="" /></a></div>
+
+						</div>
+						<div class="item">
+							<div class="slide-shp-adv"><a href="#"><img src="images/y3.jpg" alt="" /></a></div>
+
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-----------Brand-------------->
+
+	<div id="promo-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center mb-5">
+					<h2 class="title8">Brand Store</h2>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="slide-child-promo owl-carousel owl-theme owl-border">
+						<div class="item">
+							<div class="slide-brand"><img src="images/store1.jpg" alt="" /></div>
+						</div>
+						<div class="item">
+							<div class="slide-brand"><img src="images/store2.jpg" alt="" /></div>
+
+						</div>
+						<div class="item">
+							<div class="slide-brand"><img src="images/store3.jpg" alt="" /></div>
+
+						</div>
+						<div class="item">
+							<div class="slide-brand"><img src="images/store4.jpg" alt="" /></div>
+
+						</div>
+						<div class="item">
+							<div class="slide-brand"><img src="images/store5.jpg" alt="" /></div>
+
+						</div>
+						<div class="item">
+							<div class="slide-brand"><img src="images/store6.jpg" alt="" /></div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<div id="info-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="latest-info owl-carousel owl-theme">
+						<div class="info-child items">
+							<img src="images/masked-family.jpg" alt="">
+							<div class="info-text">
+								<h6>Routine-ready safety picks</h6>
+								<h5>Masks, disinfectans, & more.</h5>
+
+							</div>
+						</div>
+
+						<div class="info-child items">
+							<img src="images/pick.jpg" alt="">
+							<div class="info-text">
+								<h6>No-contact services</h6>
+								<h5>Curdside pickup & more</h5>
+
+							</div>
+						</div>
+
+						<div class="info-child items">
+							<img src="images/payment.jpg" alt="">
+							<div class="info-text">
+								<h6>Touch-free payment made easy</h6>
+								<h5>Use Walmart pay in stores</h5>
+
+							</div>
+						</div>
+
+						<div class="info-child items">
+							<img src="images/outdoor.jpg" alt="">
+							<div class="info-text">
+								<h6>Outdoor family fun</h6>
+								<h5>How to picnic like a pro.</h5>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div id="feature-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="child-feature-area">
+						<div class="left-feature">
+							<i class="fas fa-tags"></i>
+						</div>
+						<div class="right-feature">
+							<h5>Best Prices & Offers</h5>
+							<p>Cheaper prices than your local supermarket, great cashback offers to top it off.</p>
+						</div>
+					</div>
+
+					<div class="child-feature-area">
+						<div class="left-feature">
+							<i class="fas fa-box-open"></i>
+						</div>
+						<div class="right-feature">
+							<h5>Wide Assortment</h5>
+							<p>Choose from 5000+ products across food, personal care, household & other categories.</p>
+						</div>
+					</div>
+					<div class="child-feature-area">
+						<div class="left-feature">
+							<i class="fas fa-rupee-sign"></i>
+						</div>
+						<div class="right-feature">
+							<h5>Easy Returns</h5>
+							<p>Not satiesfied with a product? Return it at the doorstep & gret a refund within hours.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="about-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p>FreshDirect makes online grocery delivery and grocery shoping fast and easy. Order the best of
+						seasonal farm fresh food, great local finds, quick meal solutions, incredible new products and
+						exclusives, and all of your favorite grocery brands. It's supermarket delivery with so much
+						more: from Fresh Deals thet hepl you save big to convinient delivery windows that work around
+						your schedule, we've thought of everything to make grocery home delivery simple for you. We're a
+						grocery delivery service you can trust as wesource only the highest-quality products and
+						delivery them dire<span id="dots">...</span><span id="more">ctly to your door. It is a long
+							established fact that a reader will be distracted by the readable content of a page when
+							looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+							distribution of letters, as opposed to using 'Content here, content here', making it look
+							like readable English. Many desktop publishing packages and web page editors now use Lorem
+							Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
+							sites still in their infancy. Various versions have evolved over the years, sometimes by
+							accident, sometimes on purpose (injected humour and the like).</span></p>
+					<button onclick="myFunction()" class="btn btn-info" id="myBtn">Read more</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="sub-footer-area">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-5">
+					<h4><i class="fas fa-envelope"></i> GET SPECIAL DISCOUNT IN YOUR INBOX</h4>
+					<form>
+						<div class="form__group field">
+							<input type="input" class="form__field" placeholder="Enter Your Email Id" name="name"
+								id='name' required />
+							<label for="name" class="form__label">Enter Your Email Id</label>
+						</div>
+						<button id="send">SEND</button>
+					</form>
+
+				</div>
+				<div class="col-md-4">
+					<h4><i class="fas fa-mobile"></i> EXPERIENCE THE Company MOBILE APP</h4>
+					<img src="images/googlePlay.png" width="150" height="40" alt="google">
+					<img src="images/applestore.png" width="150" height="40" alt="apple">
+				</div>
+
+				<div class="col-md-3">
+					<h4><i class="fa fa-phone"></i> FOR ANY HELP YOU MAY CALL US AT</h4>
+					<p>+91 922-220-1010</p>
+					<p>(Monday to Saturday, 9AM - 9PM)</p>
+
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+
+	<div id="footer-area">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2">
+					<h4>Company</h4>
+					<ul>
+						<li><a href="">WHO ARE WE?</a></li>
+						<li><a href="">CAREERS</a></li>
+						<li><a href="">AUTHENTICITY</a></li>
+						<li><a href="">PRESS</a></li>
+						<li><a href="">TESTIMONIALS</a></li>
+						<li><a href="">Company CSR</a></li>
+						<li><a href="">RESPONSIBLE DISCLOSURE</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<h4>HELP</h4>
+					<ul>
+						<li><a href="">CONTACT US</a></li>
+						<li><a href="">FREQUENTLY ASKED QUESTIONS</a></li>
+						<li><a href="">STORE LOCATOR</a></li>
+						<li><a href="">CANCELLATION & RETURN</a></li>
+						<li><a href="">SHIPPING & DELIVERY</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2">
+					<h4>INSPIRE ME</h4>
+					<ul>
+						<li><a href="">BEAUTY BOOK</a></li>
+						<li><a href="">Company TV</a></li>
+						<li><a href="">Company NETWORK</a></li>
+						<li><a href="">ROUTINE FINDER</a></li>
+						<li><a href="">BUYING GUIDES</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<h4>QUICK LINKS</h4>
+					<ul>
+						<li><a href="">OFFER ZONE</a></li>
+						<li><a href="">NEW LAUNCHES</a></li>
+						<li><a href="">Company MAN</a></li>
+						<li><a href="">Company FASHION</a></li>
+						<li><a href="">Company PRO</a></li>
+						<li><a href="">Company FEMINA BEAUTY<br>AWARDS WINNERS 2019</a></li>
+						<li><a href="">SITEMAP</a></li>
+
+					</ul>
+				</div>
+
+				<div class="col-md-3">
+
+					<h4>TOP CATEGORIES</h4>
+					<ul class="left">
+						<li><a href="">MAKEUP</a></li>
+
+						<li><a href="">SKIN</a></li>
+
+						<li><a href="">HAIR</a></li>
+
+						<li><a href="">PERSONAL CARE</a></li>
+
+						<li><a href="">APPLIANCES</a></li>
+
+
+					</ul>
+					<ul class="right">
+
+						<li><a href="">MOM & BABY</a></li>
+
+						<li><a href="">WELLNESS</a></li>
+
+						<li><a href="">FRAGRANCE</a></li>
+
+						<li><a href="">NATURAL</a></li>
+
+						<li><a href="">LUXE</a></li>
+
+					</ul>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div id="brand-area">
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-md-3">
+					<div class="left-feature">
+						<i class="fas fa-tag"></i>
+					</div>
+					<div class="right-feature">
+						<h5>1500+ BRANDS</h5>
+						<p>Well Curated 3 Lakh+ Products</p>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="left-feature">
+						<i class="fas fa-truck"></i>
+					</div>
+					<div class="right-feature">
+						<h5>FREE SHIPPING</h5>
+						<p>For Orders Above INR 1000</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="left-feature">
+						<i class="fas fa-shopping-basket"></i>
+					</div>
+					<div class="right-feature">
+						<h5>GENUINE PRODUCTS</h5>
+						<p>Sourced Directly From Brands</p>
+					</div>
+				</div>
+				<div class=" col-md-3">
+					<h6>SHOW US SOME LOVE <i class="fas fa-heart"></i> ON SOCIAL MEDIA</h6>
+					<ul class="social">
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div id="copyright-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<ul>
+						<li><a href="#">TERMS & CONDITIONS</a></li>
+						<li><a href="#">SHIPPING POLICY</a></li>
+						<li><a href="#">CANCELLATION POLICY</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">PRIVACY POLICY</a></li>
+
+					</ul>
+					<p>&copy; 2020 Company Name All Rights Reserved </p>
+
+
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<script>
+
+
+		function myFunction() {
+			var dots = document.getElementById("dots");
+			var moreText = document.getElementById("more");
+			var btnText = document.getElementById("myBtn");
+
+			if (dots.style.display === "none") {
+				dots.style.display = "inline";
+
+				btnText.innerHTML = "Read more";
+				moreText.style.display = "none";
+			} else {
+				dots.style.display = "none";
+				btnText.innerHTML = "Read less";
+				moreText.style.display = "inline";
+			}
+		}
+
+		function closeform() {
+			document.getElementById("login").style.display = "none";
+		}
+
+		function closeForm() {
+			document.getElementById("register").style.display = "none";
+
+		}
+
+	</script>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript" src="js/jquery.sticky.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<script>
+		$("#header-area ul#nav ul.menu-area ul li").click(function () {
+			$("#header-area ul#nav ul.menu-area ul li ul").toggle();
+
+		})
+		$("#shopby").hide();
+		$(window).on("scroll", function () {
+			if ($(window).scrollTop() > 50) {
+
+				$("#shopby").show();
+				$("#formRes").addClass("col-md-5")
+				$("#formRes").removeClass("col-md-6")
+			} else {
+				//remove the background property so it comes transparent again (defined in your css)
+				$("#shopby").hide();
+				$("#formRes").removeClass("col-md-5")
+				$("#formRes").addClass("col-md-6")
+			}
+		});
+
+	</script>
+
+</body>
+
+</html>

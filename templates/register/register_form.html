@@ -1,0 +1,50 @@
+<div class="container-fluid content-class">
+		<div class="row">
+			<div class="col-md-7 style-5 section-top-padding setion-border-bottom right-border left-border">
+				<div class="row login-page-block-title">
+					<div class="col-md-12 style-bg-heading">
+						<h3 class="text-align-center w3-myfont">Registration</h3>
+					</div>
+				</div>
+				<hr>
+				*{alert-msg}*
+				<form id="myForm" action="" method="POST" enctype="multipart/form-data">
+					<div class="form-group text-align-center">
+						<label for="firstName" class="w3-myfont-bold">First Name:</label>
+						<input type="text" id="firstName" name="firstName" placeholder="Enter your first name" class="form-control input-style" value="*{firstName}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="lastName" class="w3-myfont-bold">Last Name:</label>
+						<input type="text" id="lastName" name="lastName" placeholder="Enter your last name" class="form-control input-style" value="*{lastName}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="email" class="w3-myfont-bold">Email:</label>
+						<input type="email" id="email" name="email" placeholder="Enter your email" class="form-control input-style" value="*{email}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="mobile" class="w3-myfont-bold">Mobile Number:</label>
+						<input type="text" id="mobile" name="mobile" placeholder="Enter your mobile" class="form-control input-style" value="*{mobile}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="password" class="w3-myfont-bold">Password:</label>
+						<input type="password" id="password" name="password" placeholder="Enter password" class="form-control input-style" value="*{password}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="confirm_password" class="w3-myfont-bold">Confirm Password:</label>
+						<input type="text" id="confirm_password" name="confirm_password" placeholder="Confirm password" class="form-control input-style" value="*{confirm_password}*">
+					</div>
+					<div class="form-group text-align-center">
+						<input type="submit" name="register" class="btn btn-primary button-style w3-myfont" value="Register">
+					</div>
+				</form>
+				<div class="row">
+					<div class="col-md-12 text-align-center login-text">
+						Forget Password? Please click <a href="ForgotPassword.php">here</a> to retrieve password.<br>
+						Do you have the login credentials? Please <a href="login.php">Login</a>.
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5 style-5 setion-border-bottom" style="padding-left: 0px;">
+				<img src="assets/images/register.png" style="width: 100%;">
+			</div>
+		</div>

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="eng-US">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compitable" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home | Restaurant</title>
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+	<div id="banner-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-6">
+					<img src="images/logo.png" alt="">
+				</div>
+				<div class="col-md-6 col-6 btnCus">
+					<button class="btn-fn" onclick="document.getElementById('login').style.display='block'"><i
+									class="fa fa-user"></i> Login</button>
+					<button class="btn-fn" onclick="document.getElementById('register').style.display='block'"><i
+									class="fa fa-user-plus"></i> Sign Up</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12" id="inner-banner">
+					<h2>Want a new Changer?</h2>
+					<p>Food ,Drinks, Groceries & more available for Delivery and Pickup</p>
+					<form>
+						<input type="text" name="search" placeholder="Enter Your Address...">
+						<button type="button" id="searchBtn" name="searchBtn"><i
+								class="fas fa-long-arrow-alt-right"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!----Modal Login--------->
+	<div id="login" class="modal mbsc-cloak">
+		<div class="form-center">
+			<div class="form-container">
+				<label for="" onclick="closeform()" class="close-btn fas fa-times"></label>
+				<div class="row social-login-row">
+					<a href="#" class="fb btn">
+						<i class="fab fa-facebook-f"></i> Login with Facebook
+					</a>
+					<a href="#" class="google-plus btn">
+						<i class="fab fa-google-plus"></i> Login with google +
+					</a>
+				</div>
+				<p class="login-seperator">OR</p>
+				<form action="#">
+					<div class="data">
+						<label>Email/Phone</label>
+						<input type="text" required>
+					</div>
+					<div class="data">
+						<label>Password</label>
+						<input type="password" required>
+					</div>
+					<div class="forgot-pass"><a href="#">Forgot Password</a></div>
+					<div class="btn">
+						<div class="inner"></div>
+						<button type="submit">Login</button>
+					</div>
+					<div class="sign-up-link">Not a member?<a href="#"> Sign Up Now.</a></div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!----Modal Registration--------->
+	<div id="register" class="modal mbsc-cloak">
+		<div class="form-center">
+			<div class="form-container">
+				<label for="" onclick="closeForm()" class="close-btn fas fa-times"></label>
+				<form action="#">
+					<div class="data">
+						<label>Enter Your Phone Number</label>
+						<input type="text" required>
+					</div>
+					<div class="btn">
+						<div class="inner"></div>
+						<button type="submit">Send OTP</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div id="order-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-6">
+					<div class="inner-order">
+						<img src="images/1.jpg" alt="order food online">
+						<h4>Order Food Online</h4>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-6">
+					<div class="inner-order">
+						<img src="images/2.jpg" alt="order food online">
+						<h4 class="pickup">Pickup or Deliveries from Restaurants near You</h4>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-6">
+					<div class="inner-order">
+						<img src="images/3.jpg" alt="order food online">
+						<h4>Nightlife & Clubs</h4>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-6">
+					<div class="inner-order">
+						<img src="images/4.jpg" alt="order food online">
+						<h4>Reward Club Membership</h4>
+					</div>
+				</div>
+
+			</div>
+
+
+			<div class="row">
+				<div class="col-md-12 favorites text-center">
+					<h1>Order from Local Favorites Near You</h1>
+					<p>Whatever you want, we get it. Order delivery for yourself or with friends and watch in real-time
+						as your Postmate brings you all the things you love</p>
+					<input type="tel" class="phone" placeholder="Enter your Phone Number to get the App"><br><br>
+					<button class="btn" id="btngetapp">Get the App</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="resturant-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h3 class="mt-5">Every Flavor Welcome</h3>
+					<p class="mt-3">From your neighborhood sushi spot to the burger and fries you crave,
+						choose from over 300,000 local and national favorites across
+						the U.S. and Canada</p>
+					<button class="btn mt-3" id="btnfind">Find Restaurants</button>
+				</div>
+				<div class="col-md-6">
+					<img src="images/roll.jpg" alt="roll">
+				</div>
+				<div class="col-md-6">
+					<img src="images/roll.jpg" alt="roll">
+				</div>
+				<div class="col-md-6 text-right">
+					<h3 class="mt-5">You’ve got Stuff to do We’ve got options</h3>
+					<p class="mt-3">Get it delivered right to your door. or try Pickup on your way home. It’s mealtimeon
+						your time.</p>
+					<button class="btn mt-3" id="btnfind">Order Now</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="activity-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 ">
+					<img src="images/order.png" alt="order">
+					<h5 class="mt-3">No Minimum Order</h5>
+					<p>Order in for yourself or for the group, with no restrictions on order value</p>
+				</div>
+				<div class="col-md-4">
+					<img src="images/tracking.png" alt="order">
+					<h5 class="mt-3">Live Order Tracking</h5>
+					<p>Know where your order is at all times from the restaurants to your doorstep</p>
+				</div>
+				<div class="col-md-4">
+					<img src="images/delivery.png" alt="order">
+					<h5 class="mt-3">Lightning-Fast Delivery</h5>
+					<p>Experience Delivoo’s superfast Delivery for food ,fresh on time</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div id="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<h3>Sign Up for Special Offers</h3>
+					<form action="">
+						<label for="email">E-mail Address</label><br>
+						<input type="text" id="email" class="email" placeholder="yourname@e-mail.com"><br><br>
+						<label for="zip">Zip Code</label><br>
+						<input type="text" id="zip" class="zip" placeholder="145786"><br>
+						<button class="btn mt-5" id="btncountmein">Count me in!</button>
+					</form>
+				</div>
+				<div class="col-md-3">
+					<h3>Get to Know Us</h3>
+					<ul>
+						<li><a href="#">About Grubhub</a></li>
+						<li><a href="#">Our apps</a></li>
+						<li><a href="#">Our blog</a></li>
+						<li><a href="#">Our tech blog, Grubhub Bytes</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Investor relations</a></li>
+						<li><a href="#">News</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h3>Useful Links</h3>
+					<ul>
+						<li><a href="#">Gift cards</a></li>
+						<li><a href="#">Grubhub+</a></li>
+						<li><a href="#">Grubhub Perks</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Catering</a></li>
+						<li><a href="#">Student discounts</a></li>
+						<li><a href="#">Keyboard Shortcuts</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h3>Partner with Us</h3>
+					<ul id="partner">
+						<li><a href="#">For Restaurants</a></li>
+						<li><a href="#">For Drivers</a></li>
+						<li><a href="#">For Corporate accounts</a></li>
+						<li><a href="#">Become an Affiliate</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="images/logof.png" alt="">
+				</div>
+				<div class="col-md-2">
+					<h3>delivoo</h3>
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Press & Media</a></li>
+						<li><a href="#">Developers</a></li>
+						<li><a href="#">API Docs</a></li>
+						<li><a href="#">Civic Labs</a></li>
+						<li><a href="#">Unlimited</a></li>
+						<li><a href="#">Gift Cards</a></li>
+						<li><a href="#">Pickup</a></li>
+						<li><a href="#">Postmates Party</a></li>
+						<li><a href="#">Postmates for Work</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<h3>MERCHANTS</h3>
+					<ul>
+						<li><a href="#">Sell on Postmates</a></li>
+						<li><a href="#">Restaurants</a></li>
+					</ul>
+					<h5 class="mt-3">FLEET</h5>
+					<ul>
+						<li><a href="#">Join the Fleet</a></li>
+					</ul>
+					<h5 class="mt-3">SUPPORT</h5>
+					<ul>
+						<li><a href="#">Customer Help</a></li>
+						<li><a href="#">Fleet Help</a></li>
+						<li><a href="#">Merchant Help</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<h3>MORE</h3>
+					<ul>
+						<li><a href="#">Delivery Near Me</a></li>
+						<li><a href="#">Takeout Near Me</a></li>
+						<li><a href="#">Pizza Near Me</a></li>
+						<li><a href="#">Thai Near Me</a></li>
+						<li><a href="#">Mexican Near Me</a></li>
+						<li><a href="#">Alcohol Delivery</a></li>
+						<li><a href="#">FoodFight!</a></li>
+
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<h3>FOLLOW US</h3>
+					<ul>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Instagram</a></li>
+						<li><a href="#">Snapchat</a></li>
+						<li><a href="#"><img src="images/appstore.png" alt=""></a></li>
+						<li><a href="#"><img src="images/googleplay.png" alt=""></a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		function closeform() {
+			document.getElementById("login").style.display = "none";
+		}
+
+		function closeForm() {
+			document.getElementById("register").style.display = "none";
+
+		}
+	</script>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+
+
+</body>
+
+</html>

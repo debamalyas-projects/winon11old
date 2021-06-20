@@ -1,0 +1,50 @@
+<div class="container-fluid content-class">
+		<div class="row">
+			<div class="col-md-7 style-5 section-top-padding setion-border-bottom right-border left-border">
+				<div class="row login-page-block-title">
+					<div class="col-md-12">
+						<h3 class="text-align-center w3-myfont"><u>Cash Withdrawal</u></h3>
+					</div>
+				</div>
+				<div class="alert-msg">*{alert-msg}*</div>
+				<form id="myForm" action="" method="POST" class="contact-form" enctype="multipart/form-data">
+
+					<div class="form-group text-align-center">
+						<label for="bank_name" class="w3-myfont-bold">Bank Name</label>
+						*{bank_name}*
+						<input type="hidden" name="bank_name" value="*{bank_name}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="bank_branch" class="w3-myfont-bold">Bank Branch</label>
+						*{bank_name}*
+						<input type="hidden" name="bank_branch" value="*{bank_branch}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="bank_account_number" class="w3-myfont-bold">Bank Account Number</label>
+						*{bank_account_number}*
+						<input type="hidden" name="bank_account_number" value="*{bank_account_number}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="ifsc" class="w3-myfont-bold">Bank IFSC Code</label>
+						*{ifsc}*
+						<input type="hidden" name="ifsc" value="*{ifsc}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="wallet" class="w3-myfont-bold">Wining Wallet Balance</label>
+						*{wallet}*
+						<input type="hidden" name="wallet" value="*{wallet}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="claim" class="w3-myfont-bold">Claim Amount</label>
+						<input type="text" name="claim" id="claim" placeholder="Enter Amount" class="form-control input-style" value="*{claim}*" onkeypress="return validateFloatKeyPress(this,event);">
+					</div>
+
+					<div class="form-group text-align-center">
+						<input type="submit" name="claim_amount" class="btn btn-primary button-style w3-myfont" value="Claim">
+					</div>
+				</form>
+			</div>
+			<div class="col-md-5 style-5 setion-border-bottom" style="padding-left: 0px;">
+				<br><img src="*{ASSET_LINK}*images/4.png" style="width: 100%;">
+			</div>
+		</div>

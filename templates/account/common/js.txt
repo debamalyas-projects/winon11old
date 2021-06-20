@@ -1,0 +1,20 @@
+<div class="col-lg-6">
+						<div class="row">
+                        	<div class="contact-areart p-60">
+							
+								<div class="card text-center mb-30">
+										<h5 class="card-header bg-warning">ZONE-1</h5>
+											<div class="card-body row">
+												<div class="col-lg-6" style="margin-bottom: 10px;">
+												  <a href="javascript:void(0);" class="genric-btn primary circle">
+													MAHABANK
+													<span style="color: red;">(10)</span>
+													<span id="class-P" style="color: blue;">(P)</span>
+												   </a>
+												</div>
+											</div>
+								
+                                 </div>
+                            
+						    </div>
+					    </div>

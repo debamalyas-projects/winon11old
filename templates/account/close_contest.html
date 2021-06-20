@@ -1,0 +1,90 @@
+<div class="container-fluid content-class">
+		<div class="row">
+			<div class="col-md-7 style-5 section-top-padding setion-border-bottom right-border left-border">
+			<div class="btn-group btn-nav">
+					<a href="*{game_link}*" class="btn btn-success btn-contest">Upcoming Contests</a>
+					<a href="*{joined_game_link}*" class="btn btn-success btn-contest">Joined Contests</a>
+					<a href="*{running_contest_link}*" class="btn btn-success btn-contest">Running Contests</a>
+					<a href="*{contest_over_link}*" class="btn btn-success btn-contest">Completed Contests</a>
+				</div>
+				<hr>
+				<div class="row login-page-block-title">
+					<div class="col-md-12 style-bg-heading">
+						<h3 class="text-align-center w3-myfont">Completed Contest Result</h3>
+					</div>
+				</div>
+				<div class="row contest-inf-pad bg-contest-inf-pad contest-padding">
+					<div class="col-md-12 w3-myfont">
+						<b>Contest Name</b> : *{contest_name}*
+					</div>
+				</div>
+				<div class="row contest-inf-pad bg-contest-inf-pad contest-padding">
+					<div class="col-md-12 w3-myfont">
+						<b>Status</b> : Closed
+					</div>
+				</div>
+				<div class="row contest-inf-pad bg-contest-inf-pad contest-padding">
+						<div class="col-md-4 w3-myfont"><b>Game Name</b> <br> *{contest_name}*</div>
+						<div class="col-md-3 w3-myfont"><b>Prize Pool</b> <br> *{contest_prize}*</div>
+						<div class="col-md-2 w3-myfont"><b>Spots</b> <br> *{total_players}*</div>
+						<div class="col-md-3 w3-myfont"><b>Entry</b> <br> *{contest_entry_fee}*</div>
+				</div>
+                <!-- Nav tabs -->
+                <div class="card">
+                    <ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="nav-item-style-data w3-myfont"><a href="#prize" aria-controls="prize" role="tab" data-toggle="tab">Prize Break Up</a></li>
+                        <li role="presentation" class="active nav-item-style-data w3-myfont"><a href="#leader_board" class="active" aria-controls="leader_board" role="tab" data-toggle="tab">Leader Board</a></li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+						
+						<div role="tabpanel" class="tab-pane" id="prize">
+							<div class="box-body">
+								<table id="prize_data" class="table table-bordered table-hover col-md-12 center-align-text w3-myfont">
+									
+										<thead>
+										<h3 class="center-align-text w3-myfont-imp">Prize Break Up</h3>
+										<tr>
+										  <th>Rank</th>
+										  <th>Prize Money(INR)</th>
+										</tr>
+										
+										</thead>
+										<tbody>
+										*{contest_list}*
+										
+									</table>
+							</div>
+						</div>
+                        
+						<div role="tabpanel" class="tab-pane active" id="leader_board">
+							<div class="box-body">
+								<table id="leader_board_data" class="table table-bordered table-hover col-md-12 center-align-text w3-myfont">
+									<div class="row contest-inf-pad bg-contest-inf-pad">	
+										<h5 class="w3-myfont">Note: Teams cannot be changed once the match has completed.</h5>
+									</div>
+										<thead>
+										<h3 class="center-align-text w3-myfont-imp">Leader Board</h3>
+										<tr>
+										  <th>All Teams</th>
+										  <th>Points</th>
+										  <th>Rank</th>
+										  <th>Won</th>
+										</tr>
+										
+										</thead>
+										<tbody>
+										*{leader_board}*
+										*{leader_board_others}*
+										
+									</table>
+							</div>
+						</div>
+					</div>
+                </div>
+           	
+			</div>
+			<div class="col-md-5 style-5 setion-border-bottom" style="padding-left: 0px;" id="teamArea">
+				<br><img src="*{ASSET_LINK}*images/3.png" style="width: 100%;">
+			</div>
+		</div>

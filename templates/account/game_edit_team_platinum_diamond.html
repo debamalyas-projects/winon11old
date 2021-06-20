@@ -1,0 +1,46 @@
+<div class="container-fluid content-class">
+		<div class="row">
+			<div class="col-md-7 style-5 section-top-padding setion-border-bottom right-border left-border">
+				<div class="row contest-inf-pad">
+						<div class="col-md-6 w3-myfont"><b>Contest Name</b> <br> *{ContestName}*</div>
+						<div class="col-md-6 w3-myfont"><b>Contest Start Time</b> <br> *{ContestOpenDateTime}*</div>
+				</div>
+					<table id="prize_data" class="table table-bordered table-hover col-md-12 center-align-text w3-myfont">
+								
+						<thead>
+						<tr>
+							<th>Company</th>
+							<th>Platinum</th>
+							<th>Diamond</th>
+						</tr>
+						</thead>
+						<tbody>
+							 *{companyCheckboxListing}*
+						</tbody>
+					</table>
+					<script>
+						function goback(){
+							var r = confirm("Are you sure you want to go back! Your data will be lost.");
+							if (r == true) {
+							  window.location.replace("*{game_team_link}*");
+							}else {
+							  return false;
+							}
+						}
+					</script>
+					<div class="col-lg-12 d-flex justify-content-center">
+						<a href="javascript:void(0);" onclick="goback();"><button class="genric-btn primary">Back</button></a>&nbsp;
+						<form name="TeamCreateForm" action="team_edit.php" method="POST" onsubmit="return validateTeamCreateForm()">
+							<input type="hidden" name="contest_id" value="*{contest_id}*">
+							<input type="hidden" name="team_id" value="*{team_id}*">
+							<input type="hidden" id="platinum" name="platinum" value="">
+							<input type="hidden" id="diamond" name="diamond" value="">
+							<input type="submit" name="creation" class="genric-btn primary" value="Submit Team">
+						</form>
+					</div>
+				<br>
+			</div>
+			<div class="col-md-5 style-5 setion-border-bottom clearfix">
+				*{footer_zone_list}*
+			</div>
+		</div>

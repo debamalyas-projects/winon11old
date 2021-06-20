@@ -1,0 +1,403 @@
+[01-Jul-2019 12:24:30 Etc/GMT] PHP Warning:  fwrite() expects parameter 2 to be string, array given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 4
+[02-Jul-2019 02:16:13 Etc/GMT] PHP Warning:  fwrite() expects parameter 2 to be string, array given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 4
+[02-Jul-2019 02:17:24 Etc/GMT] PHP Warning:  fwrite() expects parameter 2 to be string, array given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 5
+[02-Jul-2019 02:24:38 Etc/GMT] PHP Fatal error:  Uncaught TokenException (403) 'Token is invalid or has expired.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[02-Jul-2019 02:25:34 Etc/GMT] PHP Warning:  fwrite() expects parameter 2 to be string, array given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 5
+[02-Jul-2019 02:38:39 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 02:38:39 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 02:38:39 Etc/GMT] PHP Fatal error:  Call to undefined function getHistoricalData() in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 36
+[02-Jul-2019 02:39:33 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 02:39:33 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 02:39:34 Etc/GMT] PHP Fatal error:  Call to undefined function getHistoricalData() in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 38
+[02-Jul-2019 02:40:20 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 02:40:20 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 02:40:21 Etc/GMT] PHP Fatal error:  Call to undefined function getHistoricalData() in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 38
+[02-Jul-2019 02:40:41 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 02:40:41 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 02:40:42 Etc/GMT] PHP Fatal error:  Call to undefined function getHistoricalData() in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 38
+[02-Jul-2019 02:41:25 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 02:41:25 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 02:41:28 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[02-Jul-2019 02:44:52 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 02:44:52 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 02:44:54 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[02-Jul-2019 02:46:50 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 02:46:50 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 02:46:52 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[02-Jul-2019 03:37:33 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 03:37:33 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 03:37:35 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[02-Jul-2019 03:38:06 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 03:38:06 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 03:38:08 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[02-Jul-2019 04:23:00 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 04:23:00 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 04:23:02 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[02-Jul-2019 04:23:42 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 04:23:42 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 04:23:44 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[02-Jul-2019 04:49:41 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 04:49:41 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[02-Jul-2019 04:49:43 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[13-Jul-2019 06:28:50 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[13-Jul-2019 06:28:50 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 32
+[13-Jul-2019 06:28:52 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[13-Jul-2019 06:46:09 Etc/GMT] PHP Warning:  fwrite() expects parameter 2 to be string, array given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 5
+[13-Jul-2019 06:51:30 Etc/GMT] PHP Fatal error:  Uncaught TokenException (403) 'Token is invalid or has expired.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[13-Jul-2019 06:51:35 Etc/GMT] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 4
+[13-Jul-2019 06:51:35 Etc/GMT] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 5
+[13-Jul-2019 06:51:35 Etc/GMT] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 6
+[13-Jul-2019 06:51:35 Etc/GMT] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 4
+[13-Jul-2019 06:51:35 Etc/GMT] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 5
+[13-Jul-2019 06:51:35 Etc/GMT] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 6
+[13-Jul-2019 06:53:26 Etc/GMT] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 4
+[13-Jul-2019 06:53:26 Etc/GMT] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 5
+[13-Jul-2019 06:53:26 Etc/GMT] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 6
+[13-Jul-2019 06:56:03 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 06:56:03 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 06:57:34 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 06:57:34 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:00:54 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:00:54 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:00:54 Etc/GMT] PHP Notice:  Undefined variable: param in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 617
+[13-Jul-2019 07:00:59 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:00:59 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:00:59 Etc/GMT] PHP Notice:  Undefined variable: param in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 617
+[13-Jul-2019 07:01:42 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:01:42 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:01:42 Etc/GMT] PHP Notice:  Undefined variable: param in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 617
+[13-Jul-2019 07:01:46 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:01:46 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:02:15 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:02:15 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:02:15 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[13-Jul-2019 07:02:39 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:02:39 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:02:40 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[13-Jul-2019 07:02:43 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:02:43 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:02:44 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[13-Jul-2019 07:04:07 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:04:07 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:04:08 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[13-Jul-2019 07:05:41 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:05:41 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:05:42 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[13-Jul-2019 07:18:55 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:18:55 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:18:57 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[13-Jul-2019 07:19:29 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:19:29 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[13-Jul-2019 07:19:29 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[14-Jul-2019 10:25:36 Etc/GMT] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 4
+[14-Jul-2019 10:25:36 Etc/GMT] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 5
+[14-Jul-2019 10:25:36 Etc/GMT] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 6
+[14-Jul-2019 10:27:55 Etc/GMT] PHP Notice:  Undefined variable: kite in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 31
+[14-Jul-2019 10:27:55 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 31
+[14-Jul-2019 10:27:55 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:27:55 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:27:55 Etc/GMT] PHP Notice:  Undefined variable: kite in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 39
+[14-Jul-2019 10:27:55 Etc/GMT] PHP Fatal error:  Call to a member function getHistoricalData() on null in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 39
+[14-Jul-2019 10:28:14 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:28:14 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:28:14 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[14-Jul-2019 10:29:30 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:29:30 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:29:30 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[14-Jul-2019 10:29:33 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:29:33 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:29:34 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 899
+[14-Jul-2019 10:31:01 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:31:01 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:31:03 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 900
+[14-Jul-2019 10:32:10 Etc/GMT] PHP Warning:  Unterminated comment starting line 166 in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 166
+[14-Jul-2019 10:32:10 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 169
+[14-Jul-2019 10:32:14 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:32:14 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:32:17 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 901
+[14-Jul-2019 10:35:46 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:35:46 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:35:46 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:35:46 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:35:48 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 900
+[14-Jul-2019 10:35:49 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 900
+[14-Jul-2019 10:38:04 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:38:04 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:47:38 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:47:38 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:47:40 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 901
+[14-Jul-2019 10:49:33 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:49:33 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:49:34 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 902
+[14-Jul-2019 10:53:36 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:53:36 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:53:37 Etc/GMT] PHP Fatal error:  Uncaught DataException (400) 'Invalid response: <html><body><h1>400 Bad request</h1>
+Your browser sent an invalid request.
+</body></html>
+'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 912
+[14-Jul-2019 10:54:00 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:54:00 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:54:00 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 902
+[14-Jul-2019 10:54:20 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:54:20 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:54:21 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 902
+[14-Jul-2019 10:56:25 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:56:25 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 33
+[14-Jul-2019 10:56:25 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 10:56:25 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 10:56:26 Etc/GMT] PHP Fatal error:  Uncaught InputException (400) 'Invalid `api_key` or `access_token`.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 902
+[14-Jul-2019 10:56:49 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 10:56:49 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 10:56:50 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 902
+[14-Jul-2019 10:57:33 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 10:57:33 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 10:57:33 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 902
+[14-Jul-2019 10:57:38 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 10:57:38 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 10:57:38 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 902
+[14-Jul-2019 11:01:07 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:01:07 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:01:08 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 902
+[14-Jul-2019 11:02:29 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:02:29 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:02:30 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 902
+[14-Jul-2019 11:02:35 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:02:35 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:02:35 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 902
+[14-Jul-2019 11:03:00 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:03:00 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:03:01 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 902
+[14-Jul-2019 11:04:19 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:04:19 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:04:20 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 902
+[14-Jul-2019 11:04:24 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:04:24 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:04:25 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:05:31 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:05:31 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:05:32 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:06:41 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:06:41 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:06:42 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:06:46 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:06:46 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:06:46 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:07:38 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:07:38 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:07:39 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:12:29 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:12:29 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:12:30 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:18:13 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:18:13 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:18:13 Etc/GMT] PHP Warning:  Missing argument 3 for KiteConnect::getHistoricalData(), called in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 39 and defined in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 596
+[14-Jul-2019 11:18:13 Etc/GMT] PHP Warning:  Missing argument 4 for KiteConnect::getHistoricalData(), called in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 39 and defined in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 596
+[14-Jul-2019 11:18:13 Etc/GMT] PHP Notice:  Undefined variable: from in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 600
+[14-Jul-2019 11:18:13 Etc/GMT] PHP Notice:  Undefined variable: to in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 601
+[14-Jul-2019 11:18:13 Etc/GMT] PHP Notice:  Undefined variable: from in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 605
+[14-Jul-2019 11:18:13 Etc/GMT] PHP Notice:  Undefined variable: to in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 609
+[14-Jul-2019 11:18:14 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:18:59 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:18:59 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:19:00 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:20:31 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:20:31 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:20:32 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:21:04 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:21:04 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:21:04 Etc/GMT] PHP Fatal error:  Call to undefined function html_decode() in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 993
+[14-Jul-2019 11:21:12 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:21:12 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:21:12 Etc/GMT] PHP Fatal error:  Call to undefined function html_decode() in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 993
+[14-Jul-2019 11:21:37 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:21:37 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:21:38 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:22:35 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 993
+[14-Jul-2019 11:22:41 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 993
+[14-Jul-2019 11:23:38 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:23:38 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:23:40 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:24:11 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:24:11 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:24:12 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:24:55 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:24:55 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:24:56 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:25:52 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:25:52 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:25:53 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:28:09 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:28:09 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:28:10 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:29:19 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:29:19 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:29:20 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:30:28 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 1220
+[14-Jul-2019 11:30:31 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:30:31 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:30:32 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:33:02 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:33:02 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:33:03 Etc/GMT] PHP Notice:  Undefined variable: response in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 1035
+[14-Jul-2019 11:33:03 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:33:08 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:33:08 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:33:10 Etc/GMT] PHP Notice:  Undefined variable: response in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 1035
+[14-Jul-2019 11:33:10 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:33:37 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:33:37 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:33:38 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:33:43 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:33:43 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:33:44 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:34:11 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:34:11 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:34:11 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 11:34:54 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:34:54 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 11:34:55 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 13:08:31 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 13:08:31 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 13:08:32 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 13:08:41 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 13:08:41 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 13:08:42 Etc/GMT] PHP Fatal error:  Uncaught PermissionException (403) 'Insufficient permission for that call.'
+
+  thrown in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/library/kiteconnect.php on line 903
+[14-Jul-2019 13:10:22 Etc/GMT] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 4
+[14-Jul-2019 13:10:22 Etc/GMT] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 5
+[14-Jul-2019 13:10:22 Etc/GMT] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/zerodha_post_back.php on line 6
+[14-Jul-2019 13:12:18 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 13:12:18 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 13:13:42 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 13:13:42 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 13:15:22 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 13:15:22 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 13:15:24 Etc/GMT] PHP Notice:  Undefined variable: user in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34
+[14-Jul-2019 13:15:24 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/psksw8ti/public_html/projects/zero2crore/zerodha_api/functions.php on line 34

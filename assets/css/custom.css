@@ -1,0 +1,260 @@
+.content-class{
+	background: linear-gradient(to left, #b7b91ab0 , #15c58ba6);
+}
+
+.ml63 {
+	margin-left: 61%;
+}
+
+hr.style-seven {
+    /*overflow: visible;*/ /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #4fd1e1;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #4fd1e1;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+hr.style-eight {
+    /*overflow: visible;*/ /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #4fd1e1;
+    color: #4fd1e1;
+    text-align: center;
+}
+hr.style-eight:after {
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+.nav-right{
+	    margin-left: 233px;
+}
+.padding-gap-left{
+	padding-left: 50px;
+}
+.padding-gap-right {
+	padding-right: 214px;
+}
+.padding-gap-main{
+	padding-right: 49px;
+}
+
+
+.link-bg{
+	background-color: #126c4e99;
+}
+
+.bg-color{
+	background-color: #378357c2!important;
+}
+
+
+.text-align-center {
+	text-align: center;
+}
+
+.right-border {
+	border-right: 3px solid #126c4e;
+}
+
+.left-border {
+	border-left: 3px solid #126c4e;
+}
+
+.cp-text{ 
+	text-align: center; 
+}
+
+.w3-myfont {
+  font-family:Avanta Garde;
+}
+
+.w3-myfont-bold {
+  font-family: Avanta Garde;
+  font-weight: bold;
+}
+
+.top-buffer {
+	margin-top:10px;
+	text-align: center;
+}
+
+.vertical-scroll {
+	overflow-y: scroll; 
+	height: 600px;
+}
+
+.button-style {
+	width: 30%;
+    height: 45px;
+    border-radius: 9px;
+}
+
+.section-top-padding{
+	padding-top: 30px;
+}
+
+.login-page-block-title {
+    border-radius: 50%;
+    width: 60%;
+    margin-left: 19%;
+    padding-bottom: 10px;
+}
+
+.footer {
+    background-color: #0d694afa;
+    color: white;
+    text-align: center;
+}
+
+.input-style {
+	border-radius: 25px;
+	border-color: #4fd1e1;
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+    font-family: Avanta Garde;
+    font-weight: 700;
+}
+
+.social-img-size {
+	width:70%;
+    margin-left: 105px;
+}
+@media only screen and (max-width: 600px) {
+ .social-img-size {
+   width:90%; 
+   margin-left:20px;
+  }
+}
+
+.style-bg-heading{
+	background-color:#126c4e75;
+	font-family: Avanta Garde;
+}
+.cp-link {
+	color: #ffffff;
+}
+
+.text {
+	font-size: 20px;
+    font-weight: bold;
+    color: #0b4632a1;
+    padding-top: 20px;
+}
+
+.setion-border-bottom {
+	border-bottom: 2px solid #126c4e;
+}
+
+.login-text {
+	padding-bottom: 10px;
+}
+
+.left-rec {
+	left: -19px !important;
+}
+
+.back-image-1 {
+	background-image: url("images/login_image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contest-inf-pad {
+	padding-bottom: 20px;
+}
+
+.label-text-context {
+	font-weight: bold;
+}
+
+.btn-contest {
+	border-radius: 25px;
+    margin-right: 2px;
+	background-color: #6d819085;
+	border-color: #2882c533;
+}
+.btn-nav{
+	width: 100%;
+}
+.gi-heading{
+	width: 100%;
+    margin-left: 0;
+    border-radius: 0;
+}
+
+.btn-fee-size{
+	float: right;
+	width:50%;
+}
+@media only screen and (max-width: 600px) {
+    .btn-fee-size{
+    float:none;
+    width: 100%;
+    margin-bottom: 15px;
+}
+    
+}
+.btn-bg{
+	background-color: #126c4e63;
+	border-radius: 5px;
+	border-color: green;
+	margin-right: 5px;
+}
+
+.single-line-list{
+	display: contents;
+    list-style-type: none;
+    padding: 0;
+	left:0;
+}
+.bg-contest-inf-pad{
+	background-color: #55848438;
+	padding: 5px 5px 5px 5px;
+    margin: 5px 2px 5px 2px;
+}
+.contest-padding{
+		margin-bottom: 20px;
+		margin: 8px 0px 5px 0px;
+		padding: 15px 5px 15px 5px;
+		}
+
+.genric-btn.primary {
+    color: #fff;
+    background: #6cbb23;
+    border: 1px solid transparent;
+}
+.genric-btn.circle {
+    border-radius: 20px;
+}
+.genric-btn {
+    display: inline-block;
+    outline: none;
+    line-height: 30px;
+    padding: 0 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}

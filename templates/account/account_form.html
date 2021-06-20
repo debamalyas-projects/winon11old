@@ -1,0 +1,202 @@
+<div class="container-fluid content-class">
+		<div class="row">
+			<div class="col-md-7 style-5 section-top-padding setion-border-bottom right-border left-border">
+				<div class="row login-page-block-title">
+					<div class="col-md-12 style-bg-heading">
+						<h3 class="text-align-center w3-myfont">My Account Edit</h3>
+					</div>
+				</div>
+				<hr>
+				<div class="row login-page-block-title gi-heading">
+					<div class="col-md-12 style-bg-heading">
+						<h3 class="text-align-center w3-myfont">General Information</h3>
+					</div>
+				</div>
+				<hr>
+				*{alert-msg}*
+				<form id="myForm" action="" method="POST" enctype="multipart/form-data">
+					<div class="form-group text-align-center">
+						<label for="firstName" class="w3-myfont-bold">First Name</label>
+						<input type="text" id="firstName" name="firstName" placeholder="Enter your first name" class="form-control input-style" value="*{firstName}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="lastName" class="w3-myfont-bold">Last Name</label>
+						<input type="text" id="lastName" name="lastName" placeholder="Enter your last name" class="form-control input-style" value="*{lastName}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="address" class="w3-myfont-bold">Address</label>
+						<input type="text" id="address" name="address" placeholder="Enter your address" class="form-control input-style" value="*{address}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="city" class="w3-myfont-bold">City</label>
+						<input type="text" id="city" name="city" placeholder="Enter your city" class="form-control input-style" value="*{city}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="state" class="w3-myfont-bold">State</label>
+						<input type="text" id="state" name="state" placeholder="Enter your state" class="form-control input-style" value="*{state}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="country" class="w3-myfont-bold">Country</label>
+						<input type="text" id="country" name="country" placeholder="Enter your country" class="form-control input-style" value="*{country}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="pin" class="w3-myfont-bold">Pincode</label>
+						<input type="text" id="pincode" name="pincode" placeholder="Enter your pincode" class="form-control input-style" value="*{pincode}*">
+					</div>
+					<hr>
+
+					<div class="row login-page-block-title gi-heading">
+						<div class="col-md-12 style-bg-heading">
+							<h3 class="text-align-center w3-myfont">Personal Information</h3>
+						</div>
+					</div>
+					<hr>
+					<div class="form-group text-align-center">
+						<label for="email" class="w3-myfont-bold">Email Address</label>
+						<input type="text" name="email" id="email" placeholder="Enter your email" class="form-control input-style" value="*{email}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="mobile" class="w3-myfont-bold">Mobile Number</label>
+						<input type="text" id="mobile" name="mobile" placeholder="Enter your mobile number" class="form-control input-style" value="*{mobile}*">
+					</div>
+					<hr>
+					<div class="row login-page-block-title gi-heading">
+						<div class="col-md-12 style-bg-heading">
+							<h3 class="text-align-center w3-myfont">KYC Information</h3>
+						</div>
+					</div>
+					<hr>
+					<div class="form-group text-align-center">
+						<label for="adhaar" class="w3-myfont-bold">Adhaar Number</label>
+						<input type="text" id="aadhar" name="aadhar" placeholder="Enter your aadhar number" class="form-control input-style" value="*{aadhar}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="aadharFile" class="w3-myfont-bold">Upload Aadhar Card Photo (front-side and back-side in one pdf or image)</label>
+						<input type="file" id="aadharFile" name="aadharFile" class="form-control input-style">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="pan" class="w3-myfont-bold">Pan Number</label>
+						<input type="text" id="pan" name="pan" placeholder="Enter your pan number" class="form-control input-style" value="*{pan}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="panFile" class="w3-myfont-bold">Upload Pan Card Photo (front-side and back-side in one pdf or image)</label>
+						<input type="file" id="panFile" name="panFile" class="form-control input-style">
+					</div>
+					<hr>
+					<div class="row login-page-block-title gi-heading">
+						<div class="col-md-12 style-bg-heading">
+							<h3 class="text-align-center w3-myfont">Bank Information</h3>
+						</div>
+					</div>
+					<hr>
+
+					<div class="form-group text-align-center">
+						<label for="bank_name" class="w3-myfont-bold">Bank Name</label>
+						<input type="text" id="bank_name" name="bank_name" placeholder="Enter your bank name" class="form-control input-style" value="*{bank_name}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="bank_branch" class="w3-myfont-bold">Branch Name</label>
+						<input type="text" id="bank_branch" name="bank_branch" placeholder="Enter your bank branch name" class="form-control input-style" value="*{bank_branch}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="bank_account_number" class="w3-myfont-bold">Bank Account Number</label>
+						<input type="text" id="bank_account_number" name="bank_account_number" placeholder="Enter your bank account number" class="form-control input-style" value="*{bank_account_number}*">
+					</div>
+					<div class="form-group text-align-center">
+						<label for="ifsc" class="w3-myfont-bold">Bank IFSC Code</label>
+						<input type="text" id="ifsc" name="ifsc" placeholder="Enter your IFSC code" class="form-control input-style" value="*{ifsc}*">
+					</div>
+					<!--Button-->
+					<div class="form-group text-align-center">
+						<input type="submit" name="account_edit" class="btn btn-primary button-style w3-myfont" value="Submit">
+					</div>
+				</form>
+				<hr>
+				<script>
+					var hash = '*{payu_hash}*';
+					function submitPayuForm() {
+					  if(hash == '') {
+						return;
+					  }
+					  var payuForm = document.forms.payuForm;
+					  payuForm.submit();
+					}
+				</script>
+				<div class="row login-page-block-title gi-heading">
+					<div class="col-md-12 style-bg-heading">
+						<h3 class="text-align-center w3-myfont">My wallet</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<b>My Playable Balance: </b>
+						₹*{amount}*
+					</div>
+				</div>
+				<hr>
+				<div>*{payu_form_error}*</div>
+				<form id="myForm" action="*{payu_action}*" method="post" name="payuForm" enctype="multipart/form-data">
+				<div class="row">
+					<div class="col-lg-12">
+						<br>
+						<b>Winning Cash: </b>
+						₹*{win_amount}*<br>
+						*{claim_cash}*|
+						*{add_cash_play}*
+						<br><br>
+						<div class="row">
+							<div class="col-md-12 text-align-center">
+								<b>Add cash for game: </b>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-12 text-align-center">
+								<input type="text" name="amount" placeholder="Enter cash" class="form-control input-style" value="*{payu_amount}*" onkeypress="return validateFloatKeyPress(this,event);">
+								<input type="hidden" name="key" value="*{key}*" />
+								<input type="hidden" name="hash" value="*{payu_hash}*"/>
+								<input type="hidden" name="txnid" value="*{txnid}*" />
+								<input type="hidden" name="firstname" value="*{firstName}*" />
+								<input type="hidden" name="email" value="*{email}*" />
+								<input type="hidden" name="phone" value="*{mobile}*" />
+								<input type="hidden" name="productinfo" value="Zero2Crore Game Payment" />
+								<input type="hidden" name="surl" value="*{surl}*" />
+								<input type="hidden" name="furl" value="*{furl}*" />
+								<input type="hidden" name="service_provider" value="payu_paisa"/>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-12 text-align-center">
+								*{add_cash_btn}*
+							</div>
+						</div>
+						<br>
+					</div>
+				 </div>
+				</form>
+				<hr>
+
+				<div class="row login-page-block-title gi-heading">
+					<div class="col-md-12 style-bg-heading">
+						<h3 class="text-align-center w3-myfont">Email Verification</h3>
+					</div>
+				</div>
+				<hr>
+				*{email_verification_form}*
+				<hr>
+
+				<!--<div class="row login-page-block-title gi-heading">
+					<div class="col-md-12 style-bg-heading">
+						<h3 class="text-align-center w3-myfont">Mobile Verification</h3>
+					</div>
+				</div>
+				<hr>
+				*{mobile_verification_form}*-->
+
+			</div>
+
+			<div class="col-md-5 style-5 setion-border-bottom" style="padding-left: 0px;">
+				<br><img src="assets/images/1.png" style="width: 100%;">
+			</div>
+		</div>

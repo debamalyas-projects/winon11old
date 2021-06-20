@@ -1,0 +1,1469 @@
+<!DOCTYPE html>
+<html lang="eng-US">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compitable" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home | Grocerry & Restaurant</title>
+	<link rel="shortcut icon" href="images/favicon.png">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/slicknav.min.css">
+	<link rel="stylesheet" href="css/smoothproducts.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/stylePro.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+	<div class="off-canvar-manu">
+		<span class="manu-close"><i class="fa fa-times"></i></span>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="categorylisting.html">Shop by Category</a></li>
+			<li><a href="#">Best Seller</a></li>
+			<li><a href="#">Event</a></li>
+			<li><a href="#">Favourites</a></li>
+			<li><a href="#">Fresh Deals</a></li>
+			<li><a href="#">Daily Essentials</a></li>
+			<li><a href="#">Coupons</a></li>
+			<li><a href="#">Featured Brands</a></li>
+		</ul>
+	</div>
+
+	<div class="off-canvar-overlay"></div>
+
+	<div id="header-responsive-area">
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-md-1 col-sm-1 col-1">
+
+					<a href="#" class="manu-trigger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-2 col-2">
+					<a href="index.html" class="logo"><img src="images/moblogo.png" style="float: right;margin-right: -15px;margin-top: -5px;" alt="logo" class="logo" width="80" height="30"></a>
+				</div>
+				<div class="col-md-5 col-sm-5 col-5 text-right">
+					<a href="#"> <img class="img-menu" src="images/mobgrocery.png" width="100" height="40px"></a>
+					<a href="#"> <img class="img-menu" src="images/mobrestaurants.png" width="100" height="40px"></a>
+				</div>
+				<div class="col-md-1 col-sm-1 col-1 ">
+					<a href="#" class="res-user" onclick="document.getElementById('login').style.display='block'"><i
+							class="far fa-user"></i></a>
+				</div>
+				<div class="col-md-1 col-sm-1 col-1 ">
+					<a href="#" class="res-cart" onclick="document.getElementById('register').style.display='block'"><i
+							class="fas fa-user-plus"></i></a>
+				</div>
+				<div class="col-md-1 col-sm-1 col-1">
+					<a href="#" class="res-location"><i class="fas fa-map-marker-alt"></i></a>
+				</div>
+
+				<div class="col-md-1 col-sm-1 col-1 ">
+					<a href="#" class="res-cart"><i class="fa fa-shopping-cart"></i><span
+							class="badge badge-danger">5</span></a>
+				</div>
+
+				<div class="col-md-12 col-sm-12 col-12 mt-2 ">
+					<form>
+						<input type="text" name="search" placeholder="Search..">
+						<input type="button" value="Go" id="searchBtn" name="searchBtn">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="top-header-area">
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-md-3">
+					<!-- <ul class="social">
+						<li><a href="#"><i class="fas fa-phone"></i>+91-8001080000</a></li>
+						<li><a href="#"><i class="fas fa-envelope"></i>binithdas@gmail.com</a></li>
+
+					</ul> -->
+				</div>
+				<div class="col-md-4 text-right">
+					<a href="#"> <img class="img-menu" src="images/grocery.png"></a>
+					<a href="#"> <img class="img-menu" src="images/restaurants.png"></a>
+				</div>
+				<div class="col-md-5 text-right">
+					<ul class="social">
+
+						<li><a href="#"><i class="fas fa-map-marker-alt"></i>Tollygunge Phari, Kolkata <i
+									class="fas fa-chevron-down"></i></a></li>
+						<li><a href="#"><i class="far fa-user"></i> My Account</a></li>
+						<li><a href="#">Log Out</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row my-2">
+				<div class="col-md-2">
+					<a href="index.html"><img src="images/logo.png" alt="logo" class="logo" width="150" height="50"></a>
+				</div>
+				<div class="col-md-1" id="shopby">
+					<ul id="nav">
+						<li><a href="#">SHOP <i class="fas fa-chevron-down"></i></a>
+							<ul class="menu-area">
+
+								<ul>
+									<h4>Foodgrains</h4>
+									<li><a href="#">Rice & Rice Products</a></li>
+									<li><a href="#">Atta, Flours, Sooji</a></li>
+									<li><a href="#">Dals & Pulses</a></li>
+									<li><a href="#">Organic staples</a></li>
+									<li><a href="#">Dry Fruits</a></li>
+									<li><a href="#">Organic staples</a></li>
+								</ul>
+								<ul>
+									<h4>Oil & Spices</h4>
+									<li><a href="#">Powder spices</a></li>
+									<li><a href="#">Edible Oil & Ghee</a></li>
+									<li><a href="#">Herbs & Whole Spices</a></li>
+									<li><a href="#">Salt & Sugar</a></li>
+									<li><a href="#">Cooking Paste</a></li>
+								</ul>
+								<ul>
+									<h4>Beverages</h4>
+									<li><a href="#">Soft Drinks</a></li>
+									<li><a href="#">Health Drinks</a></li>
+									<li><a href="#">Juices & Shakes</a></li>
+									<li><a href="#">Water</a></li>
+									<li><a href="#">Tea</a></li>
+									<li><a href="#">Coffee</a></li>
+								</ul>
+								<ul>
+									<h4>Dairy & Bakery</h4>
+									<li><a href="#">Bread & Cake</a></li>
+									<li><a href="#">Milk & Curd</a></li>
+									<li><a href="#">Cheese & Butter</a></li>
+									<li><a href="#">Buttermilk, Lassi & Milkshake</a></li>
+
+
+								</ul>
+								<ul>
+									<h4>Household</h4>
+									<li><a href="#">Detergent & Dishwash</a></li>
+									<li><a href="#">All Purpose Cleaners</a></li>
+									<li><a href="#">Repellents & Freshners</a></li>
+									<li><a href="#">Puja Needs</a></li>
+									<li><a href="#">Disposable, Garbage Bag</a></li>
+									<li><a href="#">Car & Shoe Care</a></li>
+
+
+								</ul>
+								<ul>
+
+									<img src="images/delivery.jpg" alt="" width="250" height="200">
+								</ul>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-md-6" id="formRes">
+					<form>
+						<input type="text" name="search" placeholder="Search for Products...">
+						<input type="button" value="Go" id="searchBtn" name="searchBtn">
+					</form>
+				</div>
+
+				<div class="col-md-1">
+					<a href="#"><img src="images/club.png" alt="logo" width="75" height="50"></a>
+
+				</div>
+				<div class="col-md-1 mt-3">
+
+					<a href="#" class="offers"><i class="fas fa-tag"></i> Offers</a>
+				</div>
+				<div class="col-md-2">
+					<a href="shop-cart.html" class="btn btn-custom cart"><i class="fa fa-shopping-cart"></i><span
+							class="badge badge-danger">5</span>My Cart<small>&#8377;200</small></a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="header-area">
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-md-12">
+					<ul id="nav">
+						<li class="dropdown"><i class="fa fa-list-alt"></i><a href="categorylisting.html">Shop by
+								Category <i class="fas fa-chevron-down"></i></a>
+							<ul class="menu-area">
+
+								<ul>
+									<h4>Foodgrains</h4>
+									<li><a href="#">Rice & Rice Products</a></li>
+									<li><a href="#">Atta, Flours, Sooji</a></li>
+									<li><a href="#">Dals & Pulses</a></li>
+									<li><a href="#">Organic staples</a></li>
+									<li><a href="#">Dry Fruits</a></li>
+									<li><a href="#">Organic staples</a></li>
+								</ul>
+								<ul>
+									<h4>Oil & Spices</h4>
+									<li><a href="#">Powder spices</a></li>
+									<li><a href="#">Edible Oil & Ghee</a></li>
+									<li><a href="#">Herbs & Whole Spices</a></li>
+									<li><a href="#">Salt & Sugar</a></li>
+									<li><a href="#">Cooking Paste</a></li>
+								</ul>
+								<ul>
+									<h4>Beverages</h4>
+									<li><a href="#">Soft Drinks</a></li>
+									<li><a href="#">Health Drinks</a></li>
+									<li><a href="#">Juices & Shakes</a></li>
+									<li><a href="#">Water</a></li>
+									<li><a href="#">Tea</a></li>
+									<li><a href="#">Coffee</a></li>
+								</ul>
+								<ul>
+									<h4>Dairy & Bakery</h4>
+									<li><a href="#">Bread & Cake</a></li>
+									<li><a href="#">Milk & Curd</a></li>
+									<li><a href="#">Cheese & Butter</a></li>
+									<li><a href="#">Buttermilk, Lassi & Milkshake</a></li>
+
+
+								</ul>
+								<ul>
+									<h4>Household</h4>
+									<li><a href="#">Detergent & Dishwash</a></li>
+									<li><a href="#">All Purpose Cleaners</a></li>
+									<li><a href="#">Repellents & Freshners</a></li>
+									<li><a href="#">Puja Needs</a></li>
+									<li><a href="#">Disposable, Garbage Bag</a></li>
+									<li><a href="#">Car & Shoe Care</a></li>
+
+
+								</ul>
+								<ul>
+
+									<img src="images/delivery.jpg" alt="" width="250" height="200">
+								</ul>
+							</ul>
+						</li>
+						<li><i class="fa fa-thumbs-up"></i><a href="#">Best Seller</a></li>
+						<li><i class="fa fa-calendar"></i><a href="#">Events</a></li>
+						<li><i class="fa fa-heart"></i><a href="#">Favourites</a></li>
+						<li><i class="fa fa-hand-peace"></i><a href="#">Fresh Deals</a></li>
+						<li><i class="fa fa-plus"></i><a href="#">Daily Essentials</a></li>
+						<li><i class="fa fa-gift"></i><a href="#">Coupons</a></li>
+						<li><i class="fa fa-adjust custom"></i><a href="#">Featured Brands</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="filter-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="filter"><input type="button" id="btnFilter" name="filter" value="Filter"></div>
+
+					<div class="filterContent">
+						<div class="filterLeft">
+							<ul>
+								<li><a href="#" id="sideCategory">Category</a></li>
+								<li><a href="#" id="sideBrands">Brands</a></li>
+								<li><a href="#" id="sidePopular">Popular</a></li>
+								<li><a href="#" id="sideNutrition">Nutrition</a></li>
+
+							</ul>
+						</div>
+						<div class="filterRight">
+							<div class="filCategory">
+								<ul>
+									<li>
+										<a href="#" class="sub-category">Foodgrains, Oil & Masala</a>
+										<a href="#" class="sub-category">Atta, Floors & Sooji</a>
+										<a href="#" class="sub-category">Atta Whole Wheat</a>
+										<a href="#" class="sub-category">Rice & Other Flours</a>
+										<a href="#" class="sub-category">Sooji, Maida & Besan</a>
+									</li>
+								</ul>
+							</div>
+							<div class="filBrands">
+								<ul>
+									<li>
+										<input type="checkbox" class="checked" id="brandcheck1" name="brandcheck1">
+										<label for="brandcheck1">Ashirvaad</label>
+									</li>
+									<li>
+										<input type="checkbox" class="checked" id="brandcheck2" name="brandcheck2">
+										<label for="brandcheck2">Ashirvaad Atta Whole</label>
+									</li>
+								</ul>
+							</div>
+							<div class="filPopular">
+								<ul>
+									<li>
+										<input type="checkbox" class="checked" id="popularcheck1" name="popularcheck1">
+										<label for="popularcheck1">New/Back in stock</label>
+									</li>
+								</ul>
+							</div>
+							<div class="filNutrition">
+								<ul>
+									<li>
+										<input type="checkbox" class="checked" id="nutritioncheck1"
+											name="nutritioncheck1">
+										<label for="nutritioncheck1">Gulten-Free</label>
+
+									</li>
+									<li>
+										<input type="checkbox" class="checked" id="nutritioncheck2"
+											name="nutritioncheck2">
+										<label for="nutritioncheck1">Low-Fat</label>
+									</li>
+									<li>
+										<input type="checkbox" class="checked" id="nutritioncheck3"
+											name="nutritioncheck3">
+										<label for="nutritioncheck3">Non-GMO</label>
+
+									</li>
+									<li>
+										<input type="checkbox" class="checked" id="nutritioncheck4"
+											name="nutritioncheck4">
+										<label for="nutritioncheck4">Organic</label>
+
+									</li>
+									<li>
+										<input type="checkbox" class="checked" id="nutritioncheck5"
+											name="nutritioncheck5">
+										<label for="nutritioncheck5">Sodium Free</label>
+
+									</li>
+									<li>
+										<input type="checkbox" class="checked" id="nutritioncheck6"
+											name="nutritioncheck6">
+										<label for="nutritioncheck6">Whole Grain</label>
+
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Product Details Page -->
+	<div id="product-page">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 product-breadcum">
+					<a href="#" class="sub-category">HOME</a> &gt
+					<a href="#" class="sub-category">FOOD GRAINS, OIL & MASALA</a> &gt
+					<a href="#" class="sub-category">ATTA, FLOORS & SOOJI</a> &gt
+					<a href="#" class="sub-category">ATTA WHOLE WHEAT</a> &gt
+					<a href="#" class="sub-category">AASHIRVAAD ATTA-WHOLE WHEAT</a>
+				</div>
+				<div class="col-md-3 product-social">
+
+					<ul>
+						<span>Share on:</span>
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fas fa-envelope"></i></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row mt-4">
+				<div class="col-md-2 category-section">
+					<div class="left-side">
+						<h5>Category</h5>
+						<ul>
+							<li>
+								<a href="#" class="sub-category">Foodgrains, Oil & Masala</a>
+								<a href="#" class="sub-category">Atta, Floors & Sooji</a>
+								<a href="#" class="sub-category">Atta Whole Wheat</a>
+								<a href="#" class="sub-category">Rice & Other Flours</a>
+								<a href="#" class="sub-category">Sooji, Maida & Besan</a>
+							</li>
+						</ul>
+					</div>
+					<div class="left-side">
+						<h5>Brands</h5>
+						<ul>
+							<li>
+								<input type="checkbox" class="checked" id="brandcheck1" name="brandcheck1">
+								<label for="brandcheck1">Ashirvaad</label>
+							</li>
+							<li>
+								<input type="checkbox" class="checked" id="brandcheck2" name="brandcheck2">
+								<label for="brandcheck2">Ashirvaad Atta Whole</label>
+							</li>
+						</ul>
+					</div>
+					<div class="left-side">
+						<h5>Popular</h5>
+						<ul>
+							<li>
+								<input type="checkbox" class="checked" id="popularcheck1" name="popularcheck1">
+								<label for="popularcheck1">New/Back in stock</label>
+							</li>
+						</ul>
+					</div>
+					<div class="left-side">
+						<h5>Nutrition</h5>
+						<ul>
+							<li>
+								<input type="checkbox" class="checked" id="nutritioncheck1" name="nutritioncheck1">
+								<label for="nutritioncheck1">Gulten-Free</label>
+
+							</li>
+							<li>
+								<input type="checkbox" class="checked" id="nutritioncheck2" name="nutritioncheck2">
+								<label for="nutritioncheck1">Low-Fat</label>
+							</li>
+							<li>
+								<input type="checkbox" class="checked" id="nutritioncheck3" name="nutritioncheck3">
+								<label for="nutritioncheck3">Non-GMO</label>
+
+							</li>
+							<li>
+								<input type="checkbox" class="checked" id="nutritioncheck4" name="nutritioncheck4">
+								<label for="nutritioncheck4">Organic</label>
+
+							</li>
+							<li>
+								<input type="checkbox" class="checked" id="nutritioncheck5" name="nutritioncheck5">
+								<label for="nutritioncheck5">Sodium Free</label>
+
+							</li>
+							<li>
+								<input type="checkbox" class="checked" id="nutritioncheck6" name="nutritioncheck6">
+								<label for="nutritioncheck6">Whole Grain</label>
+
+							</li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="col-md-5 product-details-left">
+					<div class="sp-loading">
+						<img src="images/loading.gif" width="120" height="70" alt="">
+						Loading Images
+					</div>
+					<div class="sp-wrap">
+						<a href="images/ashirwad-p1.jpg"><img src="images/ashirwad-p1.jpg" alt="atta1"></a>
+						<a href="images/ashirwad-p2.jpg"><img src="images/ashirwad-p2.jpg" alt="atta2"></a>
+						<a href="images/ashirwad-p3.jpg"><img src="images/ashirwad-p3.jpg" alt="atta3"></a>
+						<a href="images/ashirwad-p4.jpg"><img src="images/ashirwad-p4.jpg" alt="atta4"></a>
+						<a href="images/ashirwad-p5.jpg"><img src="images/ashirwad-p5.jpg" alt="atta5"></a>
+					</div>
+				</div>
+				<div class="col-md-5 product-details-right">
+					<span class="offerText">10% OFF</span>
+					<h2 class="productName">Aashirvaad Shudh Chakki Whole Wheat Atta</h2>
+					<p class="ratingStar"><span class="star">4.6 <i class="fas fa-star"></i></span> 567 Ratings</p>
+					<p>More by <a href="#">Aashirvaad <i class="fas fa-chevron-right"></i></a></p>
+					<h4 class="productMRP">Product MRP: <del>&#8377;405.00</del> </h4>
+					<h4 class="sellingprice">Selling Price: <span>&#8377;389.00</span><br><small>(Inclusive of all
+							taxes)</small></h4>
+					<a href="" class="btn btn-white"><i class="fas fa-award"></i> Price for Club Members: &#8377;385.00
+						<i class="fas fa-chevron-right"></i></a>
+					<div class="productcart">
+						<input type="text" class="quantity" value="1" id="productQuantity" name="productQuantity">
+						<input type="button" class="btncart" value="ADD TO CART" id="btnProductCart"
+							name="btnProductCart">
+						<input type="button" class="btnSave" value="SAVE" id="btnProductSave" name="btnProductSave">
+					</div>
+					<h6 class="atandard"><i class="fas fa-truck"></i>Standard: All Slots Full. Please Try Again Later
+					</h6>
+					<p class="pack">Pack Sizes:</p>
+
+					<div class="productVariety">
+						<div class="productValue">
+							<div class="proMeasure"><small>10 kg</small></div>
+							<div class="proQuanty"><small>Pouch</small></div>
+						</div>
+						<div class="proRate">
+							<div><span class="rs">&#8377;389</span><span class="mrp">MRP:
+									<del>&#8377;405</del></span><span class="save">SAVE &#8377;16</span>
+							</div>
+						</div>
+						<div class="prosign">&#10003</div>
+					</div>
+					<div class="productVariety mt-2">
+						<div class="productValue">
+							<div class="proMeasure"><small>5 kg</small></div>
+							<div class="proQuanty"><small>Pouch</small></div>
+						</div>
+						<div class="proRate">
+							<div><span class="rs">&#8377;196</span><span class="mrp">MRP:
+									<del>&#8377;213</del></span><span class="save">SAVE &#8377;17</span>
+							</div>
+						</div>
+						<div class="prosign">&#10003</div>
+					</div>
+					<div class="productVariety mt-2">
+						<div class="productValue">
+							<div class="proMeasure"><small>2 kg</small></div>
+							<div class="proQuanty"><small>Pouch</small></div>
+						</div>
+						<div class="proRate">
+							<div><span class="rs">&#8377;81</span>
+							</div>
+						</div>
+						<div class="prosign">&#10003</div>
+					</div>
+					<div class="productVariety mt-2">
+						<div class="productValue">
+							<div class="proMeasure"><small>1 kg</small></div>
+							<div class="proQuanty"><small>Pouch</small></div>
+						</div>
+						<div class="proRate">
+							<div><span class="rs">&#8377;39.90</span><span class="mrp">MRP:
+									<del>&#8377;42</del></span><span class="save">5% Off</span>
+							</div>
+						</div>
+						<div class="prosign">&#10003</div>
+					</div>
+
+					<h4 class="why mt-4">Why shop from <span>Us</span></h4>
+					<div class="mt-3">
+						<div class="left-shop">
+							<i class="fas fa-trash-restore"></i>
+						</div>
+						<div class="right-shop">
+							<h5>Easy returns & refunds</h5>
+							<p>Returns Products at doorstep and get refund in seconds.</p>
+						</div>
+
+					</div>
+					<div class="mt-3">
+						<div class="left-shop">
+							<i class="fas fa-rupee-sign"></i>
+						</div>
+						<div class="right-shop">
+							<h5>Lowest Price guaranteed</h5>
+							<p>Get difference refunded if you find it cheaper anywhere else.</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="product-details">
+		<div class="container mt-5">
+			<div class="col-md-12">
+				<h2>Aashirvaad Atta - Whole Wheat</h2>
+				<hr>
+			</div>
+			<div class="row accord">
+				<div class="col-md-12">
+					<h4>About</h4>
+				</div>
+				<div class="col-md-10">
+
+					<div class="p-info">
+						<article>
+							Aashirvaad whole wheat atta is made of zero per cent maida and 100% atta, which makes it
+							extremely nutritious since its packed with health benefits This also means more fluffy and
+							soft rotis at home. Aashirvaad Atta is also made from the best grains - heavy on the palm,
+							<input id="read-more-toggle-1" class="read-more-toggle1" type="checkbox">
+							<div class="read-more-content1">
+								golden amber in colour and hard in bite It is grounded using the chakki - grinding
+								process for the perfect
+								balance of colour and taste.
+							</div>
+						</article>
+					</div>
+				</div>
+
+				<div class="col-md-2">
+					<label id="plus-toggle-1" class="read-more-toggle-label" for="read-more-toggle-1"><i
+							class="fas fa-plus"></i></label>
+					<label id="minus-toggle-1" class="read-more-toggle-label" for="read-more-toggle-1"><i
+							class="fas fa-minus"></i></label>
+				</div>
+			</div>
+			<hr>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="sub-heading col-md-12">
+					<h4>Ingredients</h4>
+				</div>
+				<div class="col-md-10">
+
+					<div class="p-info">
+						<article>
+							Apart from whole grain, this product contains important vitamins, minerals and calcium, all
+							of which are good for a healthy body.
+							<input id="read-more-toggle-2" class="read-more-toggle" type="checkbox">
+							<div class="read-more-content">
+								golden amber in colour and hard in bite It is grounded using the chakki - grinding
+								process for the perfect
+								balance of colour and taste.
+							</div>
+
+						</article>
+					</div>
+				</div>
+
+				<div class="col-md-2">
+					<label id="plus-toggle-2" class="read-more-toggle-label" for="read-more-toggle-2"><i
+							class="fas fa-plus"></i></label>
+					<label id="minus-toggle-2" class="read-more-toggle-label" for="read-more-toggle-2"><i
+							class="fas fa-minus"></i></label>
+				</div>
+			</div>
+			<hr>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="sub-heading col-md-12">
+					<h4>Nutritional Facts</h4>
+				</div>
+				<div class="col-md-10">
+
+					<div class="p-info">
+						<article>
+							Whole wheat atta is comparatively healthier than bleached white flour, which is obtained
+							after processing and 60% extraction from grain. If you are consuming whole wheat atta, you
+							are eating food enriched with vitamin B1, B3, B2, folic acid, calcium, phosphorus, iron,
+							fiber and zinc. • Many health disorders, which are integrally linked with nourishment like
+							mineral deficiencies, pregnancy problems, obesity,
+							<input id="read-more-toggle-3" class="read-more-toggle2" type="checkbox">
+							<div class="read-more-content2">
+								golden amber in colour and hard in bite It is grounded using the chakki - grinding
+								process for the perfect
+								balance of colour and taste.
+							</div>
+
+						</article>
+					</div>
+				</div>
+
+				<div class="col-md-2">
+					<label id="plus-toggle-3" class="read-more-toggle-label" for="read-more-toggle-3"><i
+							class="fas fa-plus"></i></label>
+					<label id="minus-toggle-3" class="read-more-toggle-label" for="read-more-toggle-3"><i
+							class="fas fa-minus"></i></label>
+				</div>
+			</div>
+			<hr>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="sub-heading col-md-12">
+					<h4>Nutritional Facts</h4>
+				</div>
+				<div class="col-md-10">
+
+					<div class="p-info">
+						<article>
+							EAN Code: xxxxxxxxx<br>
+
+							<input id="read-more-toggle-4" class="read-more-toggle3" type="checkbox">
+							<div class="read-more-content3">
+								Manufacturer Name & Address: ITC Limited, 37, J.L. Nehru Road, Kolkata- 700071 <br>
+								Country of origin: India <br>
+								Best before 10-09-2020
+							</div>
+
+						</article>
+					</div>
+				</div>
+
+				<div class="col-md-2">
+					<label id="plus-toggle-4" class="read-more-toggle-label" for="read-more-toggle-4"><i
+							class="fas fa-plus"></i></label>
+					<label id="minus-toggle-4" class="read-more-toggle-label" for="read-more-toggle-4"><i
+							class="fas fa-minus"></i></label>
+				</div>
+			</div>
+			<hr>
+		</div>
+
+	</div>
+
+	<div id="rating">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 seprat">
+					<h6>Product Rating</h6>
+					<div class="base">
+						<h5>0<span>/5</span></h5>
+						<div class="baseStars">
+							<a href="#"><i class="far fa-star"></i></a>
+							<a href="#"><i class="far fa-star"></i></a>
+							<a href="#"><i class="far fa-star"></i></a>
+							<a href="#"><i class="far fa-star"></i></a>
+							<a href="#"><i class="far fa-star"></i></a>
+						</div>
+						<p>Based on 0 Ratings</p>
+
+					</div>
+					<div class="stars">
+						<ul>
+							<li>5 <i class="fas fa-star"></i> <progress value="50" max="100"></progress> 50%</li>
+							<li>4 <i class="fas fa-star"></i> <progress value="30" max="100"></progress> 30%</li>
+							<li>3 <i class="fas fa-star"></i> <progress value="80" max="100"></progress> 80%</li>
+							<li>2 <i class="fas fa-star"></i> <progress value="40" max="100"></progress> 40%</li>
+							<li>1 <i class="fas fa-star"></i> <progress value="20" max="100"></progress> 20%</li>
+						</ul>
+
+					</div>
+					<div class="productReview">
+						<div class="productRate">
+							<p>Rate Product</p>
+						</div>
+						<div class="productStar">
+							<ul>
+								<li><a href="#"><i class="fas fa-star"></i></a></li>
+								<li><a href="#"><i class="fas fa-star"></i></a></li>
+								<li><a href="#"><i class="fas fa-star"></i></a></li>
+								<li><a href="#"><i class="fas fa-star"></i></a></li>
+								<li><a href="#"><i class="fas fa-star"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<button id="btnRate">WRITE REVIEW</button>
+				</div>
+				<div class="col-md-7"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="freqBuy">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h4 class="title1">Frequently Bought Together</h4>
+					<hr>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="freqBuy-info owl-carousel owl-theme">
+						<div class="info-child items">
+
+							<img src="images/tatasalt_og.jpg" alt="">
+							<div class="info-text">
+								<h5>Tata Salt</h5>
+								<h6>Tata Salt lodized</h6>
+								<p class="ratingStar"><span class="star">4.2 <i class="fas fa-star"></i></span> 85 Ratings</p>
+								<p>1kg - Rs 19.80</p>
+								<p>M.R.P <del>&#8377;94.00</del><span>&#8377; 79.00</span></p>
+								<a href="#" class="btn btn-info"> Add to Cart <i class="fas fa-cart-plus"></i></a>
+							</div>
+							<a href="#" class="clubprize"><i class="fas fa-award"></i> Club Price &#8377; 146.00 <i
+								class="fas fa-unlock-alt"></i> <i class="fas fa-chevron-right"></i></a>
+							<div class="offer">1% Off</div>
+
+						</div>
+						<div class="info-child items">
+							<img src="images/dairymilk.jpg" alt="">
+							<div class="info-text">
+								<h5>Tata Salt</h5>
+								<h6>Tata Salt lodized</h6>
+								<p class="ratingStar"><span class="starLow">2.7 <i class="fas fa-star"></i></span> 150 Ratings</p>
+								<select id="productQnty" class="productQnt">
+									<option value="">1kg - Rs 19.80</option>
+									<option value="">2kg - Rs 38.80</option>
+									<option value="">5kg - Rs 99.00</option>
+								</select>
+								<p>M.R.P <del>&#8377;94.00</del><span>&#8377; 79.00</span></p>
+								<a href="#" class="btn btn-info"> Add to Cart <i class="fas fa-cart-plus"></i></a>
+							</div>
+							<a href="#" class="clubprize"><i class="fas fa-award"></i> Club Price &#8377; 146.00 <i
+								class="fas fa-unlock-alt"></i> <i class="fas fa-chevron-right"></i></a>
+
+
+						</div>
+
+						<div class="info-child items">
+							<img src="images/amul-butter.jpg" alt="">
+							<div class="info-text">
+								<h5>Tata Salt</h5>
+								<h6>Tata Salt lodized</h6>
+								<p class="ratingStar"><span class="star">4.0 <i class="fas fa-star"></i></span> 123 Ratings</p>
+								<p>1kg - Rs 19.80</p>
+								<p>M.R.P <del>&#8377;94.00</del><span>&#8377; 79.00</span></p>
+								<a href="#" class="btn btn-info"> Add to Cart <i class="fas fa-cart-plus"></i></a>
+							</div>
+							<a href="#" class="clubprize"><i class="fas fa-award"></i> Club Price &#8377; 146.00 <i
+								class="fas fa-unlock-alt"></i> <i class="fas fa-chevron-right"></i></a>
+							<div class="offer">5% Off</div>
+
+						</div>
+
+						<div class="info-child items">
+							<img src="images/amultaza.jpeg" alt="">
+							<div class="info-text">
+								<h5>Tata Salt</h5>
+								<h6>Tata Salt lodized</h6>
+								<p class="ratingStar"><span class="star">3.6 <i class="fas fa-star"></i></span> 267 Ratings</p>
+								<select id="productQnty" class="productQnt">
+									<option value="">1kg - Rs 19.80</option>
+									<option value="">2kg - Rs 38.80</option>
+									<option value="">5kg - Rs 99.00</option>
+								</select>
+								<p>M.R.P <del>&#8377;94.00</del><span>&#8377; 79.00</span></p>
+								<a href="#" class="btn btn-info"> Add to Cart <i class="fas fa-cart-plus"></i></a>
+							</div>
+							<a href="#" class="clubprize"><i class="fas fa-award"></i> Club Price &#8377; 146.00 <i
+								class="fas fa-unlock-alt"></i> <i class="fas fa-chevron-right"></i></a>
+							<div class="offer">7% Off</div>
+						</div>
+
+						<div class="info-child items">
+							<img src="images/india-gate.jpg" alt="">
+							<div class="info-text">
+								<h5>Tata Salt</h5>
+								<h6>Tata Salt lodized</h6>
+								<p class="ratingStar"><span class="starLow">3.0 <i class="fas fa-star"></i></span> 786 Ratings</p>
+								<select id="productQnty" class="productQnt">
+									<option value="">1kg - Rs 19.80</option>
+									<option value="">2kg - Rs 38.80</option>
+									<option value="">5kg - Rs 99.00</option>
+								</select>
+								<p>M.R.P <del>&#8377;94.00</del><span>&#8377; 79.00</span></p>
+								<a href="#" class="btn btn-info"> Add to Cart <i class="fas fa-cart-plus"></i></a>
+							</div>
+							<a href="#" class="clubprize"><i class="fas fa-award"></i> Club Price &#8377; 146.00 <i
+								class="fas fa-unlock-alt"></i> <i class="fas fa-chevron-right"></i></a>
+							<div class="offer">9% Off</div>
+
+						</div>
+
+						<div class="info-child items">
+							<img src="images/tatasampann.jpg" alt="">
+							<div class="info-text">
+								<h5>Tata Salt</h5>
+								<h6>Tata Salt lodized</h6>
+								<p class="ratingStar"><span class="star">4.4 <i class="fas fa-star"></i></span> 545 Ratings</p>
+								<select id="productQnty" class="productQnt">
+									<option value="">1kg - Rs 19.80</option>
+									<option value="">2kg - Rs 38.80</option>
+									<option value="">5kg - Rs 99.00</option>
+								</select>
+								<p>M.R.P <del>&#8377;94.00</del><span>&#8377; 79.00</span></p>
+								<a href="#" class="btn btn-info"> Add to Cart <i class="fas fa-cart-plus"></i></a>
+							</div>
+							<a href="#" class="clubprize"><i class="fas fa-award"></i> Club Price &#8377; 146.00 <i
+								class="fas fa-unlock-alt"></i> <i class="fas fa-chevron-right"></i></a>
+							<div class="offer">10% Off</div>
+
+						</div>
+
+
+						<div class="info-child items">
+							<img src="images/dawatrice.jpg" alt="">
+							<div class="info-text">
+								<h5>Tata Salt</h5>
+								<h6>Tata Salt lodized</h6>
+								<p class="ratingStar"><span class="star">3.9 <i class="fas fa-star"></i></span> 178 Ratings</p>
+								<select id="productQnty" class="productQnt">
+									<option value="">1kg - Rs 19.80</option>
+									<option value="">2kg - Rs 38.80</option>
+									<option value="">5kg - Rs 99.00</option>
+								</select>
+								<p>M.R.P <del>&#8377;94.00</del><span>&#8377; 79.00</span></p>
+								<a href="#" class="btn btn-info"> Add to Cart <i class="fas fa-cart-plus"></i></a>
+							</div>
+							<a href="#" class="clubprize"><i class="fas fa-award"></i> Club Price &#8377; 146.00 <i
+								class="fas fa-unlock-alt"></i> <i class="fas fa-chevron-right"></i></a>
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+			<hr>
+		</div>
+	</div>
+
+	<div id="product-area">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="child-product owl-carousel owl-theme">
+						<div class="item">
+							<img src="images/category-l0-5.jpg" alt="" />
+							<p>pedigree</p>
+						</div>
+						<div class="item">
+							<img src="images/category-l0-7.jpg" alt="" />
+							<p>Sampoo</p>
+						</div>
+						<div class="item">
+							<img src="images/category-l0-12.jpg" alt="" />
+							<p>nescafe coffee</p>
+						</div>
+						<div class="item">
+							<img src="images/category-l0-13.jpg" alt="" />
+							<p>Cornitos</p>
+						</div>
+						<div class="item">
+							<img src="images/category-l0-14.jpg" alt="" />
+							<p>Eggs</p>
+						</div>
+						<div class="item">
+							<img src="images/category-l0-15.jpg" alt="" />
+							<p>Maggi</p>
+						</div>
+						<div class="item">
+							<img src="images/category-l0-16.jpg" alt="" />
+							<p>Fortune</p>
+						</div>
+						<div class="item">
+							<img src="images/category-l0-18.jpg" alt="" />
+							<p>Tide</p>
+						</div>
+						<div class="item">
+							<img src="images/category-l0-163.jpg" alt="" />
+							<p>Nivea</p>
+						</div>
+						<div class="item">
+							<img src="images/category-l0-1047.jpg" alt="" />
+							<p>Spones</p>
+						</div>
+						<div class="item">
+							<img src="images/category-l0-1379.jpg" alt="" />
+							<p>Pillow</p>
+						</div>
+						<div class="item">
+							<img src="images/category-l0-1487.jpg" alt="" />
+							<p>Vegitables</p>
+						</div>
+						<div class="item">
+							<img src="images/category-l0-1616.jpg" alt="" />
+							<p>Exclusive</p>
+						</div>
+						<div class="item">
+							<img src="images/category-l0-1710.jpg" alt="" />
+							<p>Garments</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="view-more">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h4>You may like to view more In</h4>
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<button id="btnCountry" class="viewMore">Country of Origin: India <i
+							class="fas fa-chevron-right"></i></button>
+					<button id="btnFood" class="viewMore ml-2 mt-2">Food Preference: Vegetarian <i
+							class="fas fa-chevron-right"></i></button>
+
+				</div>
+
+			</div>
+			<div class="row backdark">
+				<div class="backwhite">
+					<div class="more-text">
+						<p>VIEW MORE PRODUCTS FROM ATTA WHEAT</p>
+						<input type="button" id="btnViewall" value="View All">
+					</div>
+					<div class="more-icon">
+						<i class="fas fa-shopping-basket"></i>
+					</div>
+				</div>
+				<div class="backwhite">
+
+					<div class="more-text">
+						<p>VIEW MORE PRODUCTS FROM AASHIRVAAD</p>
+						<input type="button" id="btnViewall" value="View All">
+					</div>
+					<div class="more-icon">
+						<i class="fab fa-autoprefixer"></i>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div id="information">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h4>More Information</h4>
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h6>Atta, Flours & Sooji</h6>
+					<ul>
+						<li><a href="#">Atta Whole Wheat</a> |</li>
+						<li><a href="#">Rice & Other Flours</a> |</li>
+						<li><a href="#">Sooji, Maida & Besan</a></li>
+
+					</ul>
+
+					<h6>Brands</h6>
+					<ul>
+						<li><a href="#">Aashirvaad</a> |</li>
+						<li><a href="#">Aashirvaad Atta Whole Wheat</a></li>
+					</ul>
+
+					<h6>Related Searches</h6>
+					<ul>
+						<li><a href="#">buy hair care products online</a> |</li>
+						<li><a href="#">buy rock salt</a></li>
+						<li><a href="#">organic hair care products</a></li>
+						<li><a href="#">fresh almonds</a></li>
+					</ul>
+
+					<h6>Buy Aashirvaad Atta Whole Wheat 10 Kg Pouch Online at Best Price</h6>
+					<p class="more-text">The Indian cuisine can’t do without atta. Atta is the base flour used to make
+						several dishes in the Indian household such as rotis, chappatis, naans and more. It is one of
+						the most widespread flours in India. There are several brands that offer their own range of atta
+						in the market. It is important that you buy the best quality of brands while choosing your atta.
+						Asshirvaad is a popular brand that sells a whole range of flour and other items in the Indian
+						market. You can now buy Aashirvaad atta online on bigbasket. The Aashirvaad whole wheat atta is
+						made of zero per cent maida and 100% atta, thus making it a healthier option as compared to
+						other flours. It is extremely nutritious and is packed with a lot of health benefits. The best
+						part about Aashirvaad atta is that the texture of the atta flour results in fluffy and soft
+						rotis that are being made at home. The atta is made by grounding using chakki that gives it the
+						perfect blend of color, taste and nutrition. Top quality grains are used to make the Ashirvaad
+						atta. This results in excellent taste, texture and nutrition of the end product that you are
+						making. The brand sells whole wheat atta in different packages. If you are buying the aashirvaad
+						whole wheat atta 10 kg online, the price would be Rs.356. You can also buy smaller quanitties if
+						you first wish to test the product. Aashirvaad atta 2 kg pouch is priced at Rs.98 on bigbasket.
+						From 1 kg of atta to 10 kg Aashirvaad atta pouch you can find the whole range on our online
+						platform. If you are looking to buy 1 kg aashirvaad atta online or more, search no more. We
+						offer the entire range at great prices that you may not find elsewhere. While shopping online
+						with us, look out for great discounts, offers and deals. Our multi pack and value pack deals go
+						a long way in terms of price saving and quantity in your kitchen. We only provide the best
+						quality products in the market on our site, as we value our customer’s satisfaction. Our
+						efficient delivery team will have your order delivered to your doorstep, making your grocery
+						shopping a hassle free and enjoyable experience. Order your Aashirvaad atta online on bigbasket
+						and reap its plenitude of benefits.</p>
+
+				</div>
+
+			</div>
+
+
+		</div>
+
+	</div>
+
+
+	<div id="feature-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="child-feature-area">
+						<div class="left-feature">
+							<i class="fas fa-tags"></i>
+						</div>
+						<div class="right-feature">
+							<h5>Best Prices & Offers</h5>
+							<p>Cheaper prices than your local supermarket, great cashback offers to top it off.</p>
+						</div>
+					</div>
+
+					<div class="child-feature-area">
+						<div class="left-feature">
+							<i class="fas fa-box-open"></i>
+						</div>
+						<div class="right-feature">
+							<h5>Wide Assortment</h5>
+							<p>Choose from 5000+ products across food, personal care, household & other categories.</p>
+						</div>
+					</div>
+					<div class="child-feature-area">
+						<div class="left-feature">
+							<i class="fas fa-rupee-sign"></i>
+						</div>
+						<div class="right-feature">
+							<h5>Easy Returns</h5>
+							<p>Not satiesfied with a product? Return it at the doorstep & gret a refund within hours.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="sub-footer-area">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-5">
+					<h4><i class="fas fa-envelope"></i> GET SPECIAL DISCOUNT IN YOUR INBOX</h4>
+					<form>
+						<div class="form__group field">
+							<input type="input" class="form__field" placeholder="Enter Your Email Id" name="name"
+								id='name' required />
+							<label for="name" class="form__label">Enter Your Email Id</label>
+						</div>
+						<button id="send">SEND</button>
+					</form>
+
+				</div>
+				<div class="col-md-4">
+					<h4><i class="fas fa-mobile"></i> EXPERIENCE THE Company MOBILE APP</h4>
+					<img src="images/googlePlay.png" width="150" height="40" alt="google">
+					<img src="images/applestore.png" width="150" height="40" alt="apple">
+				</div>
+
+				<div class="col-md-3">
+					<h4><i class="fa fa-phone"></i> FOR ANY HELP YOU MAY CALL US AT</h4>
+					<p>+91 922-220-1010</p>
+					<p>(Monday to Saturday, 9AM - 9PM)</p>
+
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+
+	<div id="footer-area">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2">
+					<h4>Company</h4>
+					<ul>
+						<li><a href="">WHO ARE WE?</a></li>
+						<li><a href="">CAREERS</a></li>
+						<li><a href="">AUTHENTICITY</a></li>
+						<li><a href="">PRESS</a></li>
+						<li><a href="">TESTIMONIALS</a></li>
+						<li><a href="">Company CSR</a></li>
+						<li><a href="">RESPONSIBLE DISCLOSURE</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<h4>HELP</h4>
+					<ul>
+						<li><a href="">CONTACT US</a></li>
+						<li><a href="">FREQUENTLY ASKED QUESTIONS</a></li>
+						<li><a href="">STORE LOCATOR</a></li>
+						<li><a href="">CANCELLATION & RETURN</a></li>
+						<li><a href="">SHIPPING & DELIVERY</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2">
+					<h4>INSPIRE ME</h4>
+					<ul>
+						<li><a href="">BEAUTY BOOK</a></li>
+						<li><a href="">Company TV</a></li>
+						<li><a href="">Company NETWORK</a></li>
+						<li><a href="">ROUTINE FINDER</a></li>
+						<li><a href="">BUYING GUIDES</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<h4>QUICK LINKS</h4>
+					<ul>
+						<li><a href="">OFFER ZONE</a></li>
+						<li><a href="">NEW LAUNCHES</a></li>
+						<li><a href="">Company MAN</a></li>
+						<li><a href="">Company FASHION</a></li>
+						<li><a href="">Company PRO</a></li>
+						<li><a href="">Company FEMINA BEAUTY<br>AWARDS WINNERS 2019</a></li>
+						<li><a href="">SITEMAP</a></li>
+
+					</ul>
+				</div>
+
+				<div class="col-md-3">
+
+					<h4>TOP CATEGORIES</h4>
+					<ul class="left">
+						<li><a href="">MAKEUP</a></li>
+
+						<li><a href="">SKIN</a></li>
+
+						<li><a href="">HAIR</a></li>
+
+						<li><a href="">PERSONAL CARE</a></li>
+
+						<li><a href="">APPLIANCES</a></li>
+
+
+					</ul>
+					<ul class="right">
+
+						<li><a href="">MOM & BABY</a></li>
+
+						<li><a href="">WELLNESS</a></li>
+
+						<li><a href="">FRAGRANCE</a></li>
+
+						<li><a href="">NATURAL</a></li>
+
+						<li><a href="">LUXE</a></li>
+
+					</ul>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div id="brand-area">
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-md-3">
+					<div class="left-feature">
+						<i class="fas fa-tag"></i>
+					</div>
+					<div class="right-feature">
+						<h5>1500+ BRANDS</h5>
+						<p>Well Curated 3 Lakh+ Products</p>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="left-feature">
+						<i class="fas fa-truck"></i>
+					</div>
+					<div class="right-feature">
+						<h5>FREE SHIPPING</h5>
+						<p>For Orders Above INR 1000</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="left-feature">
+						<i class="fas fa-shopping-basket"></i>
+					</div>
+					<div class="right-feature">
+						<h5>GENUINE PRODUCTS</h5>
+						<p>Sourced Directly From Brands</p>
+					</div>
+				</div>
+				<div class=" col-md-3">
+					<h6>SHOW US SOME LOVE <i class="fas fa-heart"></i> ON SOCIAL MEDIA</h6>
+					<ul class="social">
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div id="copyright-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<ul>
+						<li><a href="#">TERMS & CONDITIONS</a></li>
+						<li><a href="#">SHIPPING POLICY</a></li>
+						<li><a href="#">CANCELLATION POLICY</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">PRIVACY POLICY</a></li>
+
+					</ul>
+					<p>&copy; 2020 Company Name All Rights Reserved </p>
+
+
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript" src="js/smoothproducts.min.js"></script>
+	<script type="text/javascript" src="js/jquery.sticky.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+		$(document).ready(function () {
+
+			$("#minus-toggle-1").hide();
+			$("#plus-toggle-1").click(function () {
+				$(this).hide();
+				$("#minus-toggle-1").show();
+			});
+			$("#minus-toggle-1").click(function () {
+				$(this).hide();
+				$("#plus-toggle-1").show();
+			});
+
+			$("#minus-toggle-2").hide();
+			$("#plus-toggle-2").click(function () {
+				$(this).hide();
+				$("#minus-toggle-2").show();
+			});
+			$("#minus-toggle-2").click(function () {
+				$(this).hide();
+				$("#plus-toggle-2").show();
+			});
+
+
+			$("#minus-toggle-3").hide();
+			$("#plus-toggle-3").click(function () {
+				$(this).hide();
+				$("#minus-toggle-3").show();
+			});
+			$("#minus-toggle-3").click(function () {
+				$(this).hide();
+				$("#plus-toggle-3").show();
+			});
+
+
+			$("#minus-toggle-4").hide();
+			$("#plus-toggle-4").click(function () {
+				$(this).hide();
+				$("#minus-toggle-4").show();
+			});
+			$("#minus-toggle-4").click(function () {
+				$(this).hide();
+				$("#plus-toggle-4").show();
+			});
+
+			//  side Category  code
+			$("#sideCategory").click(function () {
+				$(".filCategory").toggle();
+				$(".filBrands").hide();
+				$(".filPopular").hide();
+				$(".filNutrition").hide();
+			})
+
+			$("#sideBrands").click(function () {
+				$(".filBrands").show();
+				$(".filCategory").hide();
+				$(".filPopular").hide();
+				$(".filNutrition").hide();
+			})
+
+			$("#sidePopular").click(function () {
+				$(".filPopular").show();
+				$(".filBrands").hide();
+				$(".filCategory").hide();
+				$(".filNutrition").hide();
+			})
+
+			$("#sideNutrition").click(function () {
+				$(".filNutrition").show();
+				$(".filPopular").hide();
+				$(".filBrands").hide();
+				$(".filCategory").hide();
+
+			})
+			$("#btnFilter").click(function () {
+				$(".filterContent").toggle();
+			})
+
+		});
+	</script>
+	<script>
+
+		$(".sp-wrap").smoothproducts();
+		$('.freqBuy-info').owlCarousel({
+			loop: true,
+			margin: 10,
+			nav: true,
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 2
+				},
+				900:
+				{
+					items: 3
+				},
+				1000: {
+					items: 6
+				}
+			}
+		})
+
+
+	</script>
+	<script>
+		$("#header-area ul#nav ul.menu-area ul li").click(function () {
+			$("#header-area ul#nav ul.menu-area ul li ul").toggle();
+
+		})
+		$("#shopby").hide();
+		$(window).on("scroll", function () {
+			if ($(window).scrollTop() > 50) {
+
+				$("#shopby").show();
+				$("#formRes").addClass("col-md-5")
+				$("#formRes").removeClass("col-md-6")
+			} else {
+				//remove the background property so it comes transparent again (defined in your css)
+				$("#shopby").hide();
+				$("#formRes").removeClass("col-md-5")
+				$("#formRes").addClass("col-md-6")
+			}
+		});
+
+	</script>
+</body>
+
+</html>

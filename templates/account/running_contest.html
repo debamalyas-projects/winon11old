@@ -1,0 +1,35 @@
+<div class="container-fluid content-class">
+		<div class="row">
+			<div class="col-md-7 style-5 section-top-padding setion-border-bottom right-border left-border">
+				<div class="btn-group btn-nav">
+					<a href="*{game_link}*" class="btn btn-success btn-contest">Upcoming Contests</a>
+					<a href="*{joined_game_link}*" class="btn btn-success btn-contest">Joined Contests</a>
+					<a href="*{running_contest_link}*" class="btn btn-success btn-contest">Running Contests</a>
+					<a href="*{contest_over_link}*" class="btn btn-success btn-contest">Completed Contests</a>
+				</div>
+				<hr>
+				<table id="example" class="table table-striped table-bordered w3-myfont" style="width:100%; background-color: #efef9438;">
+					<thead>
+						<tr>
+							<th style="text-align: center">
+								<h3>Your Running Contests</h3>
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						*{game_lists}*
+					</tbody>
+					<tfoot>
+						<tr>
+							<th style="text-align: center">
+								<h3>Your Running Contests</h3>
+							</th>
+						</tr>
+					</tfoot>
+				</table>
+				<br>
+			</div>
+			<div class="col-md-5 style-5 setion-border-bottom" style="padding-left: 0px;">
+				<br><img src="*{ASSET_LINK}*images/5.png" style="width: 100%;">
+			</div>
+		</div>

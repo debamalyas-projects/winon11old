@@ -1,0 +1,58 @@
+					<tr>
+							<td>
+								<div class="row contest-inf-pad">
+									<div class="col-md-6">
+										<div><b>Contest Name :</b> *{contestName}*</div><b>Prize Pool :</b> *{prize}*
+									</div>
+									<div class="col-md-6 float-right">
+										<div><b>Entry Fee :</b> *{entryFee}*</div> <a id="join_*{contest_id}*" href="game_team.php?contest_id=*{contest_id}*" class="btn btn-info">Join</a>
+									</div>
+								</div>
+
+								<div class="row contest-inf-pad bg-contest-inf-pad">
+									<ul class="col-md-12 single-line-list">
+										<li class="col-md-3"><b>Maximum allowed:</b><br> *{max}*</li>
+										<li class="col-md-3"><b>Total slots:</b><br> *{totalSlots}*</li>
+										<li class="col-md-3"><b>Joined:</b><br> *{joined}*</li>
+										<li class="col-md-3"><b>Slots Available:</b><br> *{slotsAvailable}*</li>
+									</ul>
+									<ul class="col-md-12 single-line-list">
+										<li class="col-md-3"><b>Time Remaining:</b></li>
+										<li id="timer_*{contest_id}*" class="col-md-9" style="color: red; font-weight: bold;"></li>
+									</ul>
+								</div>
+
+
+							</td>
+						</tr>
+						<script>
+							// Set the date we're counting down to
+							var countDownDate = new Date("*{ContestOpenDateTime}*").getTime();
+
+							// Update the count down every 1 second
+							var x = setInterval(function() {
+
+							  // Get today's date and time
+							  var now = new Date().getTime();
+
+							  // Find the distance between now and the count down date
+							  var distance = countDownDate - now;
+
+							  // Time calculations for days, hours, minutes and seconds
+							  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+							  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+							  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+							  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+							  // Display the result in the element with id="demo"
+							  document.getElementById("timer_*{contest_id}*").innerHTML = days + "d " + hours + "h "
+							  + minutes + "m " + seconds + "s ";
+
+							  // If the count down is finished, write some text
+							  if (distance < 0) {
+								clearInterval(x);
+								document.getElementById("timer_*{contest_id}*").innerHTML = "EXPIRED";
+								document.getElementById("join_*{contest_id}*").remove();
+							  }
+							}, 1000);
+						</script>

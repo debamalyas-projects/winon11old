@@ -1,0 +1,69 @@
+<?php
+
+?>
+<div class="banner" style="background-image: url(assets/images/banner.jpg);"></div>	
+<div class="container-fluid w3-myfont">
+	<!--Contact Section-->
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form action="contact_us.php" class="contact100-form validate-form" method="post">
+				<span class="contact100-form-title">
+					Send Us A Message
+				</span>
+				<div class="wrap-input100">
+					*{alert-msg}*
+				</div>
+				
+				<div class="wrap-input100 rs1-wrap-input100 validate-input " data-validate="Type first name">
+					<input class="input100" type="text" name="firstname" placeholder="First name" value="*{firstName}*">
+					<span class="focus-input100"></span>
+				</div>
+				<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
+					<input class="input100" type="text" name="lastname" placeholder="Last name" value="*{lastName}*">
+					<span class="focus-input100"></span>
+				</div>
+
+				
+				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<input class="input100" type="email" name="email" placeholder="Enter your email" value="*{email}*">
+					<span class="focus-input100"></span>
+				</div>
+
+				
+				<div class="wrap-input100">
+					<input id="phone" class="input100" type="text" name="phone" placeholder="Enter contact number" value="*{phone}*">
+					<span class="focus-input100"></span>
+				</div>
+
+				
+				<div class="wrap-input100 validate-input" data-validate = "Message is required">
+					<textarea id="message" class="input100" name="message" placeholder="Write us a message" value="*{message}*">*{message}*</textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<input type="submit" class="contact100-form-btn" name="submit" value="Send">
+				</div>
+			</form>
+
+			<div class="contact100-more flex-col-c-m" style="background-image: url('assets/images/stock-money.jpg');">
+				<div class="dis-flex size1 p-b-47">
+					<div class="single-cta">
+						<div class="cta-text">
+							<div class="footer-widget-heading">
+								<h3>Contact Us</h3>
+							</div>
+							<i class="fa fa-map"></i>
+							<span>Address:53 Aswini Nagar,Regent Park,
+							Kolkata 700040,West Bengal, India.</span><br><br>
+							<i class="fa fa-phone"></i><span>Call us:+91 9477126436</span><br><br>
+							<i class="fa fa-envelope-open"></i><span>Mail-us:helpdesk@winon11.com</span>
+						</div>
+					</div>
+				</div>
+				<div style="width: 100%; margin-top: 50px;">
+				   <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Aswini%20Nagar,Regent%20Park,%20%09%09%09%09%09%09%09Kolkata%20700040,West%20Bengal,%20India.+(Your%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="200" frameborder="0" style="border:0"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>

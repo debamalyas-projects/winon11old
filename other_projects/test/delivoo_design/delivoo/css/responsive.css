@@ -1,0 +1,249 @@
+
+
+/* Responsive style */
+
+
+@media only screen and (max-width: 800px)
+{
+  #banner-area {
+    
+   
+    height: 50vh;
+}
+#banner-area img {
+  
+  width: 140px;
+}
+#banner-area .btnCus {
+  
+  font-size: 10px;
+}
+area .inner-order 
+{margin-bottom: 20px;}
+}
+
+@media only screen and (max-width: 600px)
+{
+  #banner-area {
+    
+    background-size: cover;
+    height: 50vh;
+}
+#banner-area img {
+  margin:10px;
+  width: 100px;
+}
+#banner-area .btnCus {
+  
+  padding: 18px 30px 0px 0px;
+  font-size: 10px;
+  
+}
+
+#banner-area .btnCus a {
+  margin-left: 10px;
+  padding: 3px 15px;
+  
+}
+#banner-area #inner-banner {
+  margin-top: 80px;
+}
+#banner-area #inner-banner h2 {
+  
+  font-size: 18px;
+  
+}
+#banner-area #inner-banner p {
+  
+  font-size: 10px;
+  margin-left: 20px;
+}
+#banner-area #inner-banner input[type=text] {
+  background-position: 10px 5px;
+  font-size: 10px;
+  padding: 4px 20px 4px 35px;
+  width: 60%;
+}
+#banner-area #inner-banner #searchBtn {
+  width: 35px;
+  height: 30px;
+  margin-left: -4px;
+  margin-top: 0px;
+  font-size: 20px;
+  vertical-align: middle;
+  
+}
+#order-area
+{
+  margin-bottom: 0px;
+}
+#order-area .inner-order {
+  
+  padding-bottom: 10px;
+  margin: 0px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+#order-area .inner-order h4 {
+  
+  font-size: 10px;
+ 
+}
+#order-area .favorites {
+  margin-top: 10px;
+}
+#order-area .favorites h1 {
+  font-size: 20px;
+}
+#order-area .favorites p {
+  width: 360px;
+  font-size: 12px;
+}
+#order-area .favorites .phone {
+  width: 300px;
+  height: 40px;
+  padding-left: 35px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid #979797;
+  font-size: 12px;
+}
+#resturant-area {
+  margin-top: 0px; 
+  
+}
+#resturant-area .col-md-6 {
+  margin-top: 20px;
+}
+#resturant-area .col-md-6 h3
+{
+  font-size: 20px;
+}
+
+#resturant-area .col-md-6 h3.mt-5
+{
+  margin-top: 0px !important;
+  
+}
+#resturant-area .col-md-6 p
+{
+  font-size: 14px;
+}
+#resturant-area .col-md-6 p.mt-3
+{
+  margin-top: 0px !important;
+}
+#resturant-area .col-md-6
+{
+  text-align: left !important;
+}
+#resturant-area .col-md-6 img {
+   width: 100%;
+}
+#sub-footer {
+  
+  padding-top: 0px;
+  padding-bottom: 20px;
+ 
+}
+#sub-footer h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+#sub-footer ul li a {
+  
+  font-size: 12px;
+}
+
+#footer h3 {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+#footer h5 {
+  font-size: 20px;
+}
+}
+@media only screen and (max-width: 432px)
+{
+  #banner-area #inner-banner {
+    margin-top: 50px;
+}
+}
+@media only screen and (max-width: 412px)
+{
+  #banner-area {
+    
+    height: 40vh;
+}
+}
+
+@media only screen and (max-width: 400px)
+{
+  #banner-area {
+  
+    height: 40vh;
+  }
+  #banner-area .btnCus a {
+    margin-left: 5px;
+    padding: 3px 10px;
+}
+#banner-area #inner-banner {
+  margin-top: 65px;
+}
+#banner-area #inner-banner p {
+  
+  width: 200px;
+}
+#banner-area #inner-banner input[type=text] {
+ 
+  width: 55%;
+}
+
+}
+
+@media only screen and (max-width: 320px)
+{
+  #banner-area {
+    height: 55vh;
+}
+  #banner-area .btnCus {
+    padding: 18px 10px 0px 0px;
+    
+}
+#banner-area #inner-banner {
+  margin-top: 40px;
+}
+#order-area .favorites p {
+  width: 260px;
+  
+}
+#order-area .inner-order {
+  
+  height: 160px;
+  
+}
+#order-area .favorites .phone {
+  width: 280px;
+  height: 40px;
+  padding-left: 20px;
+}
+#resturant-area .col-md-6 {
+  text-align: center!important;
+}
+}
+@media only screen and (max-width: 500px){
+  .form-container {
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      width: 300px;
+      padding: 30px;
+      font-size: 10px;
+  }
+  .btn-fn{
+    display: contents;
+    margin: 5px
+  }
+  }

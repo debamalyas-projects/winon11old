@@ -1,0 +1,42 @@
+<div class="container-fluid content-class">
+		<div class="row">
+			<div class="col-md-7 style-5 section-top-padding setion-border-bottom right-border left-border">
+				<div class="row contest-inf-pad">
+						<div class="col-md-3 w3-myfont"><b>Remaining Points</b> <br> <div id="companyPoints">100</div></div>
+						<div class="col-md-3 w3-myfont"><b>Companies Selected</b> <br> <div id="companyCount">0 out of 11</div></div>
+						<div class="col-md-3 w3-myfont"><b>Contest Name</b> <br> *{ContestName}*</div>
+						<div class="col-md-3 w3-myfont"><b>Contest Start Time</b> <br> *{ContestOpenDateTime}*</div>
+				</div>
+				*{team_exist}*
+				<div id="accordion">
+				  *{zone_tab_pane}*
+				</div>
+				<br>
+				<script>
+					function goback(){
+						var r = confirm("Are you sure you want to go back! Your data will be lost.");
+						if (r == true) {
+						  window.location.replace("*{game_team_link}*");
+						}else {
+						  return false;
+						}
+					}
+				</script>
+				<div class="row">
+					<div class="col-lg-12 d-flex justify-content-center">
+						<a href="javascript:void(0);" onclick="goback();"><button class="genric-btn primary w3-myfont">Back</button></a>
+						&nbsp;
+						<form name="CompanySelectForm" action="*{game_platinum_diamond_link}*" method="POST" onsubmit="return validateCompanySelectForm()">
+							<input type="hidden" name="contest_id" value="*{contest_id}*">
+							<input type="hidden" name="zones" value="*{zoneids}*">
+							*{team_id}*
+							<div id="company_select"></div>
+							<input type="submit" name="selection" class="genric-btn primary w3-myfont" value="Continue">
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5 style-5 setion-border-bottom clearfix">
+				*{footer_zone_list}*
+			</div>
+		</div>

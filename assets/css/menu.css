@@ -1,0 +1,11 @@
+.btn-outline-dark {
+	border-color: #FFF;
+	color: #FFF;
+}
+.btn-outline-dark:hover {
+	border-color: #343a40;	
+}
+
+.nav-bg-custom {
+	background-color: #0d694afa!important;
+}
